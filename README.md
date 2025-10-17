@@ -8,11 +8,17 @@ This project constructs and analyzes a network of musical artists, their collabo
 
 ## Features
 
+- **Automated Wikipedia Crawler**: Download artist data with multiple discovery methods
+  - Specific artist downloads
+  - Genre-based discovery
+  - Network crawling (find related artists automatically)
+  - Batch downloading of popular artist collections
 - **Wikipedia Data Extraction**: Automated parsing of artist Wikipedia pages
 - **Network Construction**: Build graph networks with artists, genres, and labels as nodes
 - **Relationship Discovery**: Identify collaborations, influences, and connections
 - **Query System**: Advanced network analysis and querying capabilities
 - **Multiple Export Formats**: GEXF, GraphML, and JSON network formats
+- **Rate-Limited Crawling**: Respectful data collection with configurable delays
 
 ## Project Structure
 
@@ -22,11 +28,15 @@ Music_Graph/
 │   ├── raw_html/              # Downloaded Wikipedia HTML pages
 │   └── processed/             # Processed network data and results
 ├── src/
+│   ├── wikipedia_crawler.py   # Automated Wikipedia data crawler
+│   ├── crawl_artists.py       # Command-line interface for specific crawling
+│   ├── batch_download.py      # Batch downloader for popular artists  
 │   ├── wikipedia_analyzer.py  # Wikipedia page analysis and parsing
 │   ├── network_builder.py     # Network construction from parsed data
 │   └── network_queries.py     # Network query and analysis system
 ├── docs/
-│   └── network_concepts.md    # Detailed network design documentation
+│   ├── network_concepts.md    # Detailed network design documentation
+│   └── crawler_usage_guide.md # Complete crawler usage guide
 ├── requirements.txt           # Python dependencies
 └── README.md                 # This file
 ```
@@ -42,13 +52,35 @@ pip install -r requirements.txt
 
 ## Quick Start
 
-### 1. Download Sample Data
+### 1. Download Artist Data
 
-The project includes sample Wikipedia pages for popular US-UK artists:
-- The Beatles (UK band)
-- Ed Sheeran (UK solo artist)
-- Taylor Swift (US solo artist)
-- Nirvana (US band)
+You have several options for downloading Wikipedia data:
+
+**Option A: Quick Starter Pack (Recommended for beginners)**
+```bash
+python src/batch_download.py
+# Choose option 1 for 16 diverse popular artists
+```
+
+**Option B: Download Specific Artists**
+```bash
+python src/crawl_artists.py artists "Radiohead" "Arctic Monkeys" "Coldplay"
+```
+
+**Option C: Discover Artists by Genre**
+```bash
+python src/crawl_artists.py genre "rock" --limit 10
+```
+
+**Option D: Network Discovery (Advanced)**
+```bash
+python src/crawl_artists.py network "The Beatles" --depth 2 --max-artists 20
+```
+
+The project also includes pre-downloaded sample pages for demonstration:
+- The Beatles, Ed Sheeran, Taylor Swift, Nirvana
+
+📖 **For detailed crawler instructions, see [docs/crawler_usage_guide.md](docs/crawler_usage_guide.md)**
 
 ### 2. Analyze Wikipedia Structure
 

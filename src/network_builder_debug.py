@@ -374,11 +374,7 @@ class MusicNetworkBuilder:
         """Build the complete network from analysis data"""
         all_nodes = {}
         all_edges = []
-
-        # Reset nodes and edges for this build
-        self.nodes = {}
-        self.edges = []
-
+        
         # Process each artist
         for artist_name, data in analysis_data.items():
             if 'error' in data:
@@ -430,63 +426,40 @@ class MusicNetworkBuilder:
                 collab_edges = self.create_collaboration_edges(artist_name, collaborators)
                 all_edges.extend(collab_edges)
 
+            print(f"DEBUG: Processing {artist_name} for new edges")  # DEBUG
             # Create member_of edges (demo with sample data)
             # In real implementation, this would come from Wikipedia analysis
-            try:
-                member_data = self._get_sample_member_data(artist_name)
-                if member_data:
-                    member_edges = self.create_member_of_edges(artist_name, member_data)
-                    all_edges.extend(member_edges)
-                    print(f"DEBUG: Added {len(member_edges)} member_of edges for {artist_name}")
-            except Exception as e:
-                print(f"ERROR creating member_of edges for {artist_name}: {e}")
+            member_data = self._get_sample_member_data(artist_name)
+            print(f"DEBUG: {artist_name} has {len(member_data)} member data")  # DEBUG
+            if member_data:
+                member_edges = self.create_member_of_edges(artist_name, member_data)
+                all_edges.extend(member_edges)
 
             # Create produced_by edges (demo with sample data)
-            try:
-                producer_data = self._get_sample_producer_data(artist_name)
-                if producer_data:
-                    producer_edges = self.create_produced_by_edges(artist_name, producer_data)
-                    all_edges.extend(producer_edges)
-                    print(f"DEBUG: Added {len(producer_edges)} produced_by edges for {artist_name}")
-            except Exception as e:
-                print(f"ERROR creating produced_by edges for {artist_name}: {e}")
+            producer_data = self._get_sample_producer_data(artist_name)
+            if producer_data:
+                producer_edges = self.create_produced_by_edges(artist_name, producer_data)
+                all_edges.extend(producer_edges)
 
             # Create award edges (demo with sample data)
-            try:
-                award_data = self._get_sample_award_data(artist_name)
-                if award_data:
-                    won_awards = [a for a in award_data if a.get('result') == 'won']
-                    nominated_awards = [a for a in award_data if a.get('result') == 'nominated']
+            award_data = self._get_sample_award_data(artist_name)
+            if award_data:
+                won_awards = [a for a in award_data if a.get('result') == 'won']
+                nominated_awards = [a for a in award_data if a.get('result') == 'nominated']
 
-                    if won_awards:
-                        won_edges = self.create_award_edges(artist_name, won_awards, 'won_award')
-                        all_edges.extend(won_edges)
-                        print(f"DEBUG: Added {len(won_edges)} won_award edges for {artist_name}")
+                if won_awards:
+                    won_edges = self.create_award_edges(artist_name, won_awards, 'won_award')
+                    all_edges.extend(won_edges)
 
-                    if nominated_awards:
-                        nominated_edges = self.create_award_edges(artist_name, nominated_awards, 'nominated_for')
-                        all_edges.extend(nominated_edges)
-                        print(f"DEBUG: Added {len(nominated_edges)} nominated_for edges for {artist_name}")
-            except Exception as e:
-                print(f"ERROR creating award edges for {artist_name}: {e}")
+                if nominated_awards:
+                    nominated_edges = self.create_award_edges(artist_name, nominated_awards, 'nominated_for')
+                    all_edges.extend(nominated_edges)
 
             # Create chart edges (demo with sample data)
-            try:
-                chart_data = self._get_sample_chart_data(artist_name)
-                if chart_data:
-                    chart_edges = self.create_chart_edges(artist_name, chart_data)
-                    all_edges.extend(chart_edges)
-                    print(f"DEBUG: Added {len(chart_edges)} charted_on edges for {artist_name}")
-            except Exception as e:
-                print(f"ERROR creating chart edges for {artist_name}: {e}")
-
-        # Add all nodes created during edge creation to all_nodes
-        for node in self.nodes.values():
-            if node.id not in all_nodes:
-                all_nodes[node.id] = node
-
-        # Add all edges created during processing to all_edges
-        all_edges.extend(self.edges)
+            chart_data = self._get_sample_chart_data(artist_name)
+            if chart_data:
+                chart_edges = self.create_chart_edges(artist_name, chart_data)
+                all_edges.extend(chart_edges)
 
         # Build NetworkX graph
         graph = nx.Graph()

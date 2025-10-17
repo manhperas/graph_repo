@@ -279,7 +279,204 @@ class MusicNetworkQuerySystem:
             'top_connected_artists': top_artists,
             'genre_analysis': genre_analysis
         }
-    
+
+    def get_adjacency_list(self, node_id: str, include_edge_data: bool = False) -> Dict[str, Any]:
+        """Get adjacency list for a node with optional edge information"""
+        if node_id not in self.graph:
+            return {'error': f'Node {node_id} not found in network'}
+
+        neighbors = list(self.graph.neighbors(node_id))
+        adjacency_list = {
+            'node': node_id,
+            'degree': len(neighbors),
+            'neighbors': []
+        }
+
+        for neighbor in neighbors:
+            neighbor_info = {
+                'id': neighbor,
+                'name': self.graph.nodes[neighbor].get('name', neighbor),
+                'type': self.graph.nodes[neighbor].get('type', 'unknown')
+            }
+
+            if include_edge_data:
+                edge_data = self.graph[node_id][neighbor]
+                neighbor_info['edge'] = {
+                    'type': edge_data.get('edge_type', 'unknown'),
+                    'weight': edge_data.get('weight', 1.0),
+                    'attributes': {k: v for k, v in edge_data.items()
+                                 if k not in ['edge_type', 'weight']}
+                }
+
+            adjacency_list['neighbors'].append(neighbor_info)
+
+        # Sort neighbors by edge weight (if available)
+        if include_edge_data:
+            adjacency_list['neighbors'].sort(key=lambda x: x['edge']['weight'], reverse=True)
+
+        return adjacency_list
+
+    def select_edges(self, criteria: Dict[str, Any] = None, limit: int = None) -> List[Dict[str, Any]]:
+        """Select edges based on criteria (edge_type, weight, source/target types, etc.)"""
+        if criteria is None:
+            criteria = {}
+
+        selected_edges = []
+
+        for source, target, edge_data in self.graph.edges(data=True):
+            # Check criteria
+            match = True
+
+            # Filter by edge type
+            if 'edge_type' in criteria:
+                if edge_data.get('edge_type') != criteria['edge_type']:
+                    match = False
+
+            # Filter by minimum weight
+            if 'min_weight' in criteria:
+                if edge_data.get('weight', 1.0) < criteria['min_weight']:
+                    match = False
+
+            # Filter by maximum weight
+            if 'max_weight' in criteria:
+                if edge_data.get('weight', 1.0) > criteria['max_weight']:
+                    match = False
+
+            # Filter by source node type
+            if 'source_type' in criteria:
+                source_type = self.graph.nodes[source].get('type', 'unknown')
+                if source_type != criteria['source_type']:
+                    match = False
+
+            # Filter by target node type
+            if 'target_type' in criteria:
+                target_type = self.graph.nodes[target].get('type', 'unknown')
+                if target_type != criteria['target_type']:
+                    match = False
+
+            # Filter by source node name pattern
+            if 'source_name_contains' in criteria:
+                source_name = self.graph.nodes[source].get('name', source)
+                if criteria['source_name_contains'].lower() not in source_name.lower():
+                    match = False
+
+            # Filter by target node name pattern
+            if 'target_name_contains' in criteria:
+                target_name = self.graph.nodes[target].get('name', target)
+                if criteria['target_name_contains'].lower() not in target_name.lower():
+                    match = False
+
+            if match:
+                edge_info = {
+                    'source': {
+                        'id': source,
+                        'name': self.graph.nodes[source].get('name', source),
+                        'type': self.graph.nodes[source].get('type', 'unknown')
+                    },
+                    'target': {
+                        'id': target,
+                        'name': self.graph.nodes[target].get('name', target),
+                        'type': self.graph.nodes[target].get('type', 'unknown')
+                    },
+                    'edge': {
+                        'type': edge_data.get('edge_type', 'unknown'),
+                        'weight': edge_data.get('weight', 1.0),
+                        'attributes': {k: v for k, v in edge_data.items()
+                                     if k not in ['edge_type', 'weight']}
+                    }
+                }
+                selected_edges.append(edge_info)
+
+        # Sort by weight (highest first)
+        selected_edges.sort(key=lambda x: x['edge']['weight'], reverse=True)
+
+        # Apply limit if specified
+        if limit:
+            selected_edges = selected_edges[:limit]
+
+        return selected_edges
+
+    def create_edge_ranges(self, range_criteria: Dict[str, Any] = None) -> Dict[str, List[Dict[str, Any]]]:
+        """Create ranges of edges based on criteria (weight ranges, type groups, etc.)"""
+        if range_criteria is None:
+            range_criteria = {'by': 'weight', 'bins': 5}
+
+        all_edges = []
+        for source, target, edge_data in self.graph.edges(data=True):
+            all_edges.append({
+                'source': source,
+                'target': target,
+                'source_name': self.graph.nodes[source].get('name', source),
+                'target_name': self.graph.nodes[target].get('name', target),
+                'edge_type': edge_data.get('edge_type', 'unknown'),
+                'weight': edge_data.get('weight', 1.0),
+                'attributes': edge_data
+            })
+
+        if range_criteria.get('by') == 'weight':
+            # Create weight ranges
+            weights = [edge['weight'] for edge in all_edges]
+            if not weights:
+                return {'error': 'No edges found'}
+
+            min_weight = min(weights)
+            max_weight = max(weights)
+            bins = range_criteria.get('bins', 5)
+
+            if max_weight == min_weight:
+                # All weights are the same
+                return {
+                    f'weight_range_{min_weight}': all_edges
+                }
+
+            # Create bins
+            bin_size = (max_weight - min_weight) / bins
+            ranges = {}
+
+            for i in range(bins):
+                range_min = min_weight + (i * bin_size)
+                range_max = min_weight + ((i + 1) * bin_size)
+
+                if i == bins - 1:  # Last bin includes max
+                    range_max = max_weight + 0.001  # Small epsilon for floating point
+
+                range_name = ".2f"
+                range_edges = [edge for edge in all_edges
+                             if range_min <= edge['weight'] < range_max]
+
+                ranges[range_name] = range_edges
+
+            return ranges
+
+        elif range_criteria.get('by') == 'edge_type':
+            # Group by edge type
+            type_ranges = {}
+            for edge in all_edges:
+                edge_type = edge['edge_type']
+                if edge_type not in type_ranges:
+                    type_ranges[edge_type] = []
+                type_ranges[edge_type].append(edge)
+
+            return type_ranges
+
+        elif range_criteria.get('by') == 'node_type':
+            # Group by source or target node type
+            type_ranges = {}
+            node_type_key = range_criteria.get('node_position', 'source')  # 'source' or 'target'
+
+            for edge in all_edges:
+                node_id = edge[node_type_key]
+                node_type = self.graph.nodes[node_id].get('type', 'unknown')
+
+                if node_type not in type_ranges:
+                    type_ranges[node_type] = []
+                type_ranges[node_type].append(edge)
+
+            return type_ranges
+
+        else:
+            return {'error': f'Unsupported range criteria: {range_criteria.get("by")}'}
+
     def _normalize_name(self, name: str) -> str:
         """Normalize artist/entity names for consistent identification"""
         if not name:
@@ -351,10 +548,45 @@ def main():
     rock_artists = query_system.get_artists_by_genre('Rock')
     if rock_artists:
         print(f"  Rock artists: {', '.join([a['name'] for a in rock_artists[:5]])}")
-    
+
     pop_artists = query_system.get_artists_by_genre('Pop')
     if pop_artists:
         print(f"  Pop artists: {', '.join([a['name'] for a in pop_artists[:5]])}")
+
+    # New: Adjacency List Demo
+    print("\n7. ADJACENCY LIST:")
+    adj_list = query_system.get_adjacency_list("The Beatles", include_edge_data=True)
+    if 'error' not in adj_list:
+        print(f"  {adj_list['node']} has {adj_list['degree']} connections:")
+        for i, neighbor in enumerate(adj_list['neighbors'][:5], 1):
+            edge_info = neighbor.get('edge', {})
+            weight = edge_info.get('weight', 'N/A')
+            edge_type = edge_info.get('type', 'N/A')
+            print(f"    {i}. {neighbor['name']} ({neighbor['type']}) - {edge_type} (w={weight})")
+
+    # New: Edge Selection Demo
+    print("\n8. EDGE SELECTION:")
+    collab_edges = query_system.select_edges({'edge_type': 'collaborates_with'}, limit=5)
+    print(f"  Top 5 collaboration edges:")
+    for i, edge in enumerate(collab_edges, 1):
+        print(f"    {i}. {edge['source']['name']} ↔ {edge['target']['name']} (w={edge['edge']['weight']})")
+
+    strong_edges = query_system.select_edges({'min_weight': 2.0}, limit=3)
+    print(f"  Top 3 strong edges (weight >= 2.0):")
+    for i, edge in enumerate(strong_edges, 1):
+        print(f"    {i}. {edge['source']['name']} → {edge['target']['name']} ({edge['edge']['type']}, w={edge['edge']['weight']})")
+
+    # New: Edge Ranges Demo
+    print("\n9. EDGE RANGES:")
+    weight_ranges = query_system.create_edge_ranges({'by': 'weight', 'bins': 3})
+    print(f"  Weight ranges:")
+    for range_name, edges in weight_ranges.items():
+        print(f"    {range_name}: {len(edges)} edges")
+
+    edge_type_ranges = query_system.create_edge_ranges({'by': 'edge_type'})
+    print(f"  Edge type groups:")
+    for edge_type, edges in edge_type_ranges.items():
+        print(f"    {edge_type}: {len(edges)} edges")
 
 if __name__ == "__main__":
     main()

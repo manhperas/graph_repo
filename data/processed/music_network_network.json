@@ -1,34 +1,46 @@
 {
   "nodes": {
-    "The Beatles": {
-      "name": "The Beatles",
-      "type": "solo_artist",
-      "origin": "Liverpool|, England",
+    "Coldplay": {
+      "name": "Coldplay",
+      "type": "band",
+      "origin": "London|, England",
       "genres": [
-        "Rock",
-        "pop",
-        "beat",
-        "psychedelia"
+        "Alternative rock",
+        "pop rock",
+        "post-Britpop",
+        "pop"
       ],
-      "years_active": "1960–1970",
+      "years_active": "1997–present",
       "labels": [
-        "Polydor",
+        "Fierce Panda",
         "Parlophone",
-        "Tollie",
-        "Vee-Jay",
+        "Nettwerk",
         "Capitol",
-        "Swan",
-        "Odeon",
-        "MGM",
-        "Atco",
-        "United Artists",
-        "Apple"
+        "Atlantic"
       ],
       "instruments": [],
-      "website": "thebeatles|.com"
+      "website": "coldplay|.com",
+      "members": [
+        "Chris Martin",
+        "Jonny Buckland",
+        "Guy Berryman",
+        "Will Champion",
+        "Phil Harvey"
+      ],
+      "past_members": []
     },
-    "genre_Rock": {
-      "name": "Rock",
+    "genre_Alternative rock": {
+      "name": "Alternative rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_pop rock": {
+      "name": "pop rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_post-Britpop": {
+      "name": "post-Britpop",
       "type": "genre",
       "category": "musical_genre"
     },
@@ -37,18 +49,8 @@
       "type": "genre",
       "category": "musical_genre"
     },
-    "genre_beat": {
-      "name": "beat",
-      "type": "genre",
-      "category": "musical_genre"
-    },
-    "genre_psychedelia": {
-      "name": "psychedelia",
-      "type": "genre",
-      "category": "musical_genre"
-    },
-    "label_Polydor": {
-      "name": "Polydor",
+    "label_Fierce Panda": {
+      "name": "Fierce Panda",
       "type": "label",
       "category": "record_label"
     },
@@ -57,13 +59,8 @@
       "type": "label",
       "category": "record_label"
     },
-    "label_Tollie": {
-      "name": "Tollie",
-      "type": "label",
-      "category": "record_label"
-    },
-    "label_Vee-Jay": {
-      "name": "Vee-Jay",
+    "label_Nettwerk": {
+      "name": "Nettwerk",
       "type": "label",
       "category": "record_label"
     },
@@ -72,95 +69,28 @@
       "type": "label",
       "category": "record_label"
     },
-    "label_Swan": {
-      "name": "Swan",
+    "label_Atlantic": {
+      "name": "Atlantic",
       "type": "label",
       "category": "record_label"
     },
-    "label_Odeon": {
-      "name": "Odeon",
-      "type": "label",
-      "category": "record_label"
-    },
-    "label_MGM": {
-      "name": "MGM",
-      "type": "label",
-      "category": "record_label"
-    },
-    "label_Atco": {
-      "name": "Atco",
-      "type": "label",
-      "category": "record_label"
-    },
-    "label_United Artists": {
-      "name": "United Artists",
-      "type": "label",
-      "category": "record_label"
-    },
-    "label_Apple": {
-      "name": "Apple",
-      "type": "label",
-      "category": "record_label"
-    },
-    "The Beatles singles": {
-      "name": "The Beatles singles",
+    "Toto": {
+      "name": "Toto",
       "type": "artist",
       "placeholder": true
     },
-    "Cream": {
-      "name": "Cream",
+    "Eagles": {
+      "name": "Eagles",
       "type": "artist",
       "placeholder": true
     },
-    "Keane (": {
-      "name": "Keane (",
+    "Raina": {
+      "name": "Raina",
       "type": "artist",
       "placeholder": true
     },
-    "Foals": {
-      "name": "Foals",
-      "type": "artist",
-      "placeholder": true
-    },
-    "Foals (": {
-      "name": "Foals (",
-      "type": "artist",
-      "placeholder": true
-    },
-    "Nirvana (": {
-      "name": "Nirvana (",
-      "type": "artist",
-      "placeholder": true
-    },
-    "Nirvana": {
-      "name": "Nirvana",
-      "type": "solo_artist",
-      "origin": "Aberdeen, Washington|, U.S.",
-      "genres": [
-        "Grunge",
-        "alternative rock",
-        "punk rock"
-      ],
-      "years_active": "1987–1994",
-      "labels": [
-        "Sub Pop",
-        "DGC"
-      ],
-      "instruments": [],
-      "website": "nirvana|.com"
-    },
-    "Engelbert Humperdinck": {
-      "name": "Engelbert Humperdinck",
-      "type": "artist",
-      "placeholder": true
-    },
-    "Paul McCartney": {
-      "name": "Paul McCartney",
-      "type": "artist",
-      "placeholder": true
-    },
-    "Jungle (": {
-      "name": "Jungle (",
+    "St. Vincent": {
+      "name": "St. Vincent",
       "type": "artist",
       "placeholder": true
     },
@@ -169,23 +99,23 @@
       "type": "artist",
       "placeholder": true
     },
-    "David Peel": {
-      "name": "David Peel",
+    "Keane (": {
+      "name": "Keane (",
       "type": "artist",
       "placeholder": true
     },
-    "George Harrison": {
-      "name": "George Harrison",
+    "Eagles (": {
+      "name": "Eagles (",
       "type": "artist",
       "placeholder": true
     },
-    "Jungle": {
-      "name": "Jungle",
+    "Naul": {
+      "name": "Naul",
       "type": "artist",
       "placeholder": true
     },
-    "Cream (": {
-      "name": "Cream (",
+    "Seal": {
+      "name": "Seal",
       "type": "artist",
       "placeholder": true
     },
@@ -194,18 +124,1068 @@
       "type": "artist",
       "placeholder": true
     },
-    "Ringo Starr %26 His All Starr": {
-      "name": "Ringo Starr %26 His All Starr",
+    "Vampire Weekend": {
+      "name": "Vampire Weekend",
+      "type": "band",
+      "origin": "New York City|, New York, U.S.",
+      "genres": [
+        "Indie rock",
+        "[",
+        "1",
+        "]",
+        "indie pop",
+        "[",
+        "2",
+        "]",
+        "art pop",
+        "[",
+        "3",
+        "]",
+        "baroque pop",
+        "[",
+        "4",
+        "]",
+        "worldbeat",
+        "[",
+        "5",
+        "]"
+      ],
+      "years_active": "2006–present",
+      "labels": [
+        "XL",
+        "Columbia"
+      ],
+      "instruments": [],
+      "website": "vampireweekend|.com",
+      "members": [
+        "Ezra Koenig",
+        "Chris Baio",
+        "Chris Tomson"
+      ],
+      "past_members": []
+    },
+    "genre_Indie rock": {
+      "name": "Indie rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_[": {
+      "name": "[",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_1": {
+      "name": "1",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_]": {
+      "name": "]",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_indie pop": {
+      "name": "indie pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_2": {
+      "name": "2",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_art pop": {
+      "name": "art pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_3": {
+      "name": "3",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_baroque pop": {
+      "name": "baroque pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_4": {
+      "name": "4",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_worldbeat": {
+      "name": "worldbeat",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_5": {
+      "name": "5",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_XL": {
+      "name": "XL",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Columbia": {
+      "name": "Columbia",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Steve Lacy": {
+      "name": "Steve Lacy",
       "type": "artist",
       "placeholder": true
     },
-    "Usher": {
-      "name": "Usher",
+    "Haim": {
+      "name": "Haim",
       "type": "artist",
       "placeholder": true
     },
-    "Toto": {
-      "name": "Toto",
+    "Rancid (": {
+      "name": "Rancid (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Nirvana": {
+      "name": "Nirvana",
+      "type": "solo_artist",
+      "origin": "",
+      "genres": [],
+      "years_active": "",
+      "labels": [],
+      "instruments": [],
+      "website": ""
+    },
+    "Nirvana (": {
+      "name": "Nirvana (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Beach House": {
+      "name": "Beach House",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Beach House (": {
+      "name": "Beach House (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Phoenix (French": {
+      "name": "Phoenix (French",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Rancid": {
+      "name": "Rancid",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Jam": {
+      "name": "Jam",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Fan death (": {
+      "name": "Fan death (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Haim (": {
+      "name": "Haim (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Fan death": {
+      "name": "Fan death",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Radiohead": {
+      "name": "Radiohead",
+      "type": "band",
+      "origin": "Abingdon|,|Oxfordshire|, England",
+      "genres": [
+        "Art rock",
+        "alternative rock",
+        "electronica",
+        "experimental rock"
+      ],
+      "years_active": "1985–present",
+      "labels": [
+        "EMI",
+        "XL",
+        "Ticker Tape Ltd.",
+        "Hostess",
+        "TBD",
+        "Parlophone",
+        "Capitol"
+      ],
+      "instruments": [],
+      "website": "radiohead|.com",
+      "members": [
+        "Ed O'Brien",
+        "Thom Yorke",
+        "Colin Greenwood",
+        "Philip Selway",
+        "Jonny Greenwood"
+      ],
+      "past_members": []
+    },
+    "genre_Art rock": {
+      "name": "Art rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_alternative rock": {
+      "name": "alternative rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_electronica": {
+      "name": "electronica",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_experimental rock": {
+      "name": "experimental rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_EMI": {
+      "name": "EMI",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Ticker Tape Ltd.": {
+      "name": "Ticker Tape Ltd.",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Hostess": {
+      "name": "Hostess",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_TBD": {
+      "name": "TBD",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Kneecap": {
+      "name": "Kneecap",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Flea": {
+      "name": "Flea",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Atoms for Peace (": {
+      "name": "Atoms for Peace (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "The Humphrey Lyttelton": {
+      "name": "The Humphrey Lyttelton",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Belly": {
+      "name": "Belly",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Kneecap (": {
+      "name": "Kneecap (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Pixies": {
+      "name": "Pixies",
+      "type": "artist",
+      "placeholder": true
+    },
+    "M.I.A.": {
+      "name": "M.I.A.",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Pixies (": {
+      "name": "Pixies (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Belly (": {
+      "name": "Belly (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Atoms for Peace": {
+      "name": "Atoms for Peace",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Arcade Fire": {
+      "name": "Arcade Fire",
+      "type": "band",
+      "origin": "Montreal, Quebec|, Canada",
+      "genres": [
+        "Indie rock",
+        "art rock",
+        "dance-rock",
+        "baroque pop"
+      ],
+      "years_active": "2001–present",
+      "labels": [
+        "Sonovox",
+        "Columbia",
+        "[",
+        "1",
+        "]",
+        "Merge",
+        "DFA",
+        "Rough Trade",
+        "City Slang",
+        "Spunk",
+        "Mercury",
+        "Virgin EMI"
+      ],
+      "instruments": [],
+      "website": "arcadefire|.com",
+      "members": [
+        "Win Butler",
+        "Régine Chassagne",
+        "Richard Reed Parry",
+        "Tim Kingsbury",
+        "Jeremy Gara"
+      ],
+      "past_members": []
+    },
+    "genre_art rock": {
+      "name": "art rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_dance-rock": {
+      "name": "dance-rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Sonovox": {
+      "name": "Sonovox",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_[": {
+      "name": "[",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_1": {
+      "name": "1",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_]": {
+      "name": "]",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Merge": {
+      "name": "Merge",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_DFA": {
+      "name": "DFA",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Rough Trade": {
+      "name": "Rough Trade",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_City Slang": {
+      "name": "City Slang",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Spunk": {
+      "name": "Spunk",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Mercury": {
+      "name": "Mercury",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Virgin EMI": {
+      "name": "Virgin EMI",
+      "type": "label",
+      "category": "record_label"
+    },
+    "The War on Drugs": {
+      "name": "The War on Drugs",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Muna": {
+      "name": "Muna",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Muna (": {
+      "name": "Muna (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Sgt. Pepper%27s Lonely Hearts Club": {
+      "name": "Sgt. Pepper%27s Lonely Hearts Club",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Michael Olsen": {
+      "name": "Michael Olsen",
+      "type": "artist",
+      "placeholder": true
+    },
+    "The War on Drugs (": {
+      "name": "The War on Drugs (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Clues": {
+      "name": "Clues",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Clues (": {
+      "name": "Clues (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Patrick Watson": {
+      "name": "Patrick Watson",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Queen": {
+      "name": "Queen",
+      "type": "solo_artist",
+      "origin": "",
+      "genres": [],
+      "years_active": "",
+      "labels": [],
+      "instruments": [],
+      "website": ""
+    },
+    "Queen (": {
+      "name": "Queen (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Foster The People": {
+      "name": "Foster The People",
+      "type": "band",
+      "origin": "Los Angeles|,|California|, U.S.",
+      "genres": [
+        "Indie pop",
+        "synth-pop",
+        "dance-pop",
+        "alternative rock",
+        "indie rock",
+        "neo-psychedelia"
+      ],
+      "years_active": "2009–present",
+      "labels": [
+        "Startime",
+        "Columbia",
+        "Foster the People",
+        "Atlantic"
+      ],
+      "instruments": [],
+      "website": "fosterthepeople|.com",
+      "members": [
+        "Mark Foster",
+        "Isom Innis"
+      ],
+      "past_members": []
+    },
+    "genre_Indie pop": {
+      "name": "Indie pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_synth-pop": {
+      "name": "synth-pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_dance-pop": {
+      "name": "dance-pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_indie rock": {
+      "name": "indie rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_neo-psychedelia": {
+      "name": "neo-psychedelia",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Startime": {
+      "name": "Startime",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Foster the People": {
+      "name": "Foster the People",
+      "type": "label",
+      "category": "record_label"
+    },
+    "The Internet": {
+      "name": "The Internet",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Malbec (": {
+      "name": "Malbec (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Malbec": {
+      "name": "Malbec",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Mark Foster": {
+      "name": "Mark Foster",
+      "type": "artist",
+      "placeholder": true
+    },
+    "The Internet (": {
+      "name": "The Internet (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Arctic Monkeys": {
+      "name": "Arctic Monkeys",
+      "type": "band",
+      "origin": "Sheffield|, England",
+      "genres": [
+        "Indie rock",
+        "garage rock",
+        "post-punk revival",
+        "psychedelic rock",
+        "alternative rock",
+        "lounge pop"
+      ],
+      "years_active": "2002–present",
+      "labels": [
+        "Domino",
+        "Warner",
+        "[",
+        "1",
+        "]"
+      ],
+      "instruments": [],
+      "website": "arcticmonkeys|.com",
+      "members": [
+        "Alex Turner",
+        "Matt Helders",
+        "Jamie Cook",
+        "Nick O'Malley"
+      ],
+      "past_members": []
+    },
+    "genre_garage rock": {
+      "name": "garage rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_post-punk revival": {
+      "name": "post-punk revival",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_psychedelic rock": {
+      "name": "psychedelic rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_lounge pop": {
+      "name": "lounge pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Domino": {
+      "name": "Domino",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Warner": {
+      "name": "Warner",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Foals": {
+      "name": "Foals",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Bros (British": {
+      "name": "Bros (British",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Jungle (": {
+      "name": "Jungle (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "The Rascals (English": {
+      "name": "The Rascals (English",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Placebo": {
+      "name": "Placebo",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Gabrielle": {
+      "name": "Gabrielle",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Sade": {
+      "name": "Sade",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Jungle": {
+      "name": "Jungle",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Foals (": {
+      "name": "Foals (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Cream": {
+      "name": "Cream",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Tom Walker": {
+      "name": "Tom Walker",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Franz Ferdinand (": {
+      "name": "Franz Ferdinand (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Sade (": {
+      "name": "Sade (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Placebo (": {
+      "name": "Placebo (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Franz Ferdinand": {
+      "name": "Franz Ferdinand",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Royal Blood (": {
+      "name": "Royal Blood (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Royal Blood": {
+      "name": "Royal Blood",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Cream (": {
+      "name": "Cream (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Travis Scott": {
+      "name": "Travis Scott",
+      "type": "solo_artist",
+      "origin": "Missouri City, Texas|, U.S.",
+      "genres": [
+        "Hip-hop",
+        "trap",
+        "pop rap",
+        "psychedelic rap"
+      ],
+      "years_active": "",
+      "labels": [
+        "Grand Hustle",
+        "Epic",
+        "Very GOOD Beats",
+        "Cactus Jack",
+        "[",
+        "7",
+        "]",
+        "[",
+        "8",
+        "]"
+      ],
+      "instruments": [],
+      "website": "travisscott|.com"
+    },
+    "genre_Hip-hop": {
+      "name": "Hip-hop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_trap": {
+      "name": "trap",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_pop rap": {
+      "name": "pop rap",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_psychedelic rap": {
+      "name": "psychedelic rap",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Grand Hustle": {
+      "name": "Grand Hustle",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Epic": {
+      "name": "Epic",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Very GOOD Beats": {
+      "name": "Very GOOD Beats",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Cactus Jack": {
+      "name": "Cactus Jack",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_7": {
+      "name": "7",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_8": {
+      "name": "8",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Molotov": {
+      "name": "Molotov",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Molotov (": {
+      "name": "Molotov (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Travis Scott production": {
+      "name": "Travis Scott production",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Tame Impala": {
+      "name": "Tame Impala",
+      "type": "band",
+      "origin": "Perth|,|Western Australia|, Australia",
+      "genres": [
+        "Psychedelic pop",
+        "[",
+        "1",
+        "]",
+        "psychedelic rock",
+        "[",
+        "2",
+        "]",
+        "indie rock",
+        "[",
+        "3",
+        "]",
+        "synth-pop",
+        "[",
+        "4",
+        "]",
+        "neo-psychedelia",
+        "[",
+        "5",
+        "]",
+        "electronic"
+      ],
+      "years_active": "2007–present",
+      "labels": [
+        "Sony",
+        "Modular",
+        "Interscope",
+        "Fiction",
+        "Island Australia",
+        "Caroline",
+        "Columbia"
+      ],
+      "instruments": [],
+      "website": "tameimpala|.com",
+      "members": [
+        "Kevin Parker",
+        "(see",
+        "touring members",
+        ")"
+      ],
+      "past_members": []
+    },
+    "genre_Psychedelic pop": {
+      "name": "Psychedelic pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_electronic": {
+      "name": "electronic",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Sony": {
+      "name": "Sony",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Modular": {
+      "name": "Modular",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Interscope": {
+      "name": "Interscope",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Fiction": {
+      "name": "Fiction",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Island Australia": {
+      "name": "Island Australia",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Caroline": {
+      "name": "Caroline",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Kevin Parker": {
+      "name": "Kevin Parker",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Flume": {
+      "name": "Flume",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Jet (": {
+      "name": "Jet (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Jet": {
+      "name": "Jet",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Clean": {
+      "name": "Clean",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Q-Tip": {
+      "name": "Q-Tip",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Vasu": {
+      "name": "Vasu",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Bruno Mars": {
+      "name": "Bruno Mars",
+      "type": "solo_artist",
+      "origin": "",
+      "genres": [
+        "Pop",
+        "R&B",
+        "funk",
+        "soul",
+        "reggae",
+        "rock"
+      ],
+      "years_active": "",
+      "labels": [
+        "Universal Motown",
+        "Atlantic",
+        "Elektra"
+      ],
+      "instruments": [
+        "Vocals",
+        "guitar",
+        "piano",
+        "keyboards",
+        "drums",
+        "bass",
+        "ukulele",
+        "congas"
+      ],
+      "website": "brunomars|.com"
+    },
+    "genre_Pop": {
+      "name": "Pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_R&B": {
+      "name": "R&B",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_funk": {
+      "name": "funk",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_soul": {
+      "name": "soul",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_reggae": {
+      "name": "reggae",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_rock": {
+      "name": "rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Universal Motown": {
+      "name": "Universal Motown",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Elektra": {
+      "name": "Elektra",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Menudo": {
+      "name": "Menudo",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Ros%C3%A9": {
+      "name": "Ros%C3%A9",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Collage (American": {
+      "name": "Collage (American",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Adele": {
+      "name": "Adele",
+      "type": "solo_artist",
+      "origin": "",
+      "genres": [
+        "Pop",
+        "[",
+        "1",
+        "]",
+        "soul",
+        "[",
+        "2",
+        "]",
+        "blues",
+        "[",
+        "3",
+        "]",
+        "jazz",
+        "[",
+        "4",
+        "]",
+        "R&B",
+        "[",
+        "5",
+        "]"
+      ],
+      "years_active": "",
+      "labels": [
+        "XL",
+        "Columbia",
+        "Melted Stone"
+      ],
+      "instruments": [
+        "Vocals",
+        "guitar"
+      ],
+      "website": "adele|.com"
+    },
+    "genre_blues": {
+      "name": "blues",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_jazz": {
+      "name": "jazz",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Melted Stone": {
+      "name": "Melted Stone",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Mika": {
+      "name": "Mika",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Peter Allen": {
+      "name": "Peter Allen",
       "type": "artist",
       "placeholder": true
     },
@@ -234,11 +1214,6 @@
       ],
       "website": "edsheeran|.com"
     },
-    "genre_Pop": {
-      "name": "Pop",
-      "type": "genre",
-      "category": "musical_genre"
-    },
     "genre_folk-pop": {
       "name": "folk-pop",
       "type": "genre",
@@ -254,43 +1229,610 @@
       "type": "label",
       "category": "record_label"
     },
-    "label_Atlantic": {
-      "name": "Atlantic",
-      "type": "label",
-      "category": "record_label"
-    },
-    "label_Elektra": {
-      "name": "Elektra",
-      "type": "label",
-      "category": "record_label"
-    },
     "label_Gingerbread Man": {
       "name": "Gingerbread Man",
       "type": "label",
       "category": "record_label"
     },
-    "James Bay": {
-      "name": "James Bay",
+    "David Ricketts": {
+      "name": "David Ricketts",
       "type": "artist",
       "placeholder": true
     },
-    "Go West": {
-      "name": "Go West",
+    "James Morrison": {
+      "name": "James Morrison",
       "type": "artist",
       "placeholder": true
     },
-    "Dan Wilson": {
-      "name": "Dan Wilson",
+    "Green Day": {
+      "name": "Green Day",
+      "type": "band",
+      "origin": "Rodeo, California|, U.S.|[|1|]",
+      "genres": [
+        "Punk rock",
+        "pop-punk",
+        "alternative rock",
+        "skate punk",
+        "power pop"
+      ],
+      "years_active": "1987–present",
+      "labels": [
+        "Lookout",
+        "Reprise",
+        "Epitaph",
+        "[",
+        "2",
+        "]",
+        "Warner"
+      ],
+      "instruments": [],
+      "website": "greenday|.com",
+      "members": [
+        "Billie Joe Armstrong",
+        "Mike Dirnt",
+        "Tré Cool"
+      ],
+      "past_members": []
+    },
+    "genre_Punk rock": {
+      "name": "Punk rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_pop-punk": {
+      "name": "pop-punk",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_skate punk": {
+      "name": "skate punk",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_power pop": {
+      "name": "power pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Lookout": {
+      "name": "Lookout",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Reprise": {
+      "name": "Reprise",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Epitaph": {
+      "name": "Epitaph",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_2": {
+      "name": "2",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Sublime (": {
+      "name": "Sublime (",
       "type": "artist",
       "placeholder": true
     },
-    "Go West (": {
-      "name": "Go West (",
+    "Skids": {
+      "name": "Skids",
       "type": "artist",
       "placeholder": true
     },
-    "Tourist": {
-      "name": "Tourist",
+    "Isocracy": {
+      "name": "Isocracy",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Sublime": {
+      "name": "Sublime",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Blackbear": {
+      "name": "Blackbear",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Isocracy (": {
+      "name": "Isocracy (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Skids (": {
+      "name": "Skids (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "The Strokes": {
+      "name": "The Strokes",
+      "type": "band",
+      "origin": "New York City, U.S.",
+      "genres": [
+        "Indie rock",
+        "garage rock revival",
+        "post-punk revival",
+        "new wave",
+        "synth-pop"
+      ],
+      "years_active": "1998–present",
+      "labels": [
+        "Cult",
+        "RCA",
+        "Rough Trade"
+      ],
+      "instruments": [],
+      "website": "thestrokes|.com",
+      "members": [
+        "Julian Casablancas",
+        "Nikolai Fraiture",
+        "Albert Hammond Jr.",
+        "Fabrizio Moretti",
+        "Nick Valensi"
+      ],
+      "past_members": []
+    },
+    "genre_garage rock revival": {
+      "name": "garage rock revival",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_new wave": {
+      "name": "new wave",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Cult": {
+      "name": "Cult",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_RCA": {
+      "name": "RCA",
+      "type": "label",
+      "category": "record_label"
+    },
+    "CRX (": {
+      "name": "CRX (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Julian Casablancas": {
+      "name": "Julian Casablancas",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Muse (": {
+      "name": "Muse (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Blondie": {
+      "name": "Blondie",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Jack White": {
+      "name": "Jack White",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Muse": {
+      "name": "Muse",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Liars": {
+      "name": "Liars",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Liars (": {
+      "name": "Liars (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Blondie (": {
+      "name": "Blondie (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "CRX": {
+      "name": "CRX",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Interpol": {
+      "name": "Interpol",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Interpol (": {
+      "name": "Interpol (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Pulp (": {
+      "name": "Pulp (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Pulp": {
+      "name": "Pulp",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Led Zeppelin": {
+      "name": "Led Zeppelin",
+      "type": "solo_artist",
+      "origin": "London, England",
+      "genres": [
+        "Hard rock",
+        "blues rock",
+        "folk rock",
+        "heavy metal"
+      ],
+      "years_active": "1968–1980|[|nb 1|]",
+      "labels": [
+        "Atlantic",
+        "Swan Song"
+      ],
+      "instruments": [],
+      "website": "ledzeppelin|.com"
+    },
+    "genre_Hard rock": {
+      "name": "Hard rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_blues rock": {
+      "name": "blues rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_folk rock": {
+      "name": "folk rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_heavy metal": {
+      "name": "heavy metal",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Swan Song": {
+      "name": "Swan Song",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Rush": {
+      "name": "Rush",
+      "type": "artist",
+      "placeholder": true
+    },
+    "cover versions of Led Zeppelin": {
+      "name": "cover versions of Led Zeppelin",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Rush (": {
+      "name": "Rush (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Santana": {
+      "name": "Santana",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Sting": {
+      "name": "Sting",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Michael Lee": {
+      "name": "Michael Lee",
+      "type": "artist",
+      "placeholder": true
+    },
+    "John Paul Jones": {
+      "name": "John Paul Jones",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Santana (": {
+      "name": "Santana (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Kanye West": {
+      "name": "Kanye West",
+      "type": "solo_artist",
+      "origin": "Chicago|, Illinois",
+      "genres": [
+        "Hip-hop",
+        "progressive rap",
+        "pop",
+        "art pop",
+        "gospel"
+      ],
+      "years_active": "",
+      "labels": [
+        "GOOD",
+        "Island Def Jam",
+        "Def Jam",
+        "Roc-A-Fella",
+        "YZY"
+      ],
+      "instruments": [],
+      "website": "yeezy|.com"
+    },
+    "genre_progressive rap": {
+      "name": "progressive rap",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_gospel": {
+      "name": "gospel",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_GOOD": {
+      "name": "GOOD",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Island Def Jam": {
+      "name": "Island Def Jam",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Def Jam": {
+      "name": "Def Jam",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Roc-A-Fella": {
+      "name": "Roc-A-Fella",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_YZY": {
+      "name": "YZY",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Simian (": {
+      "name": "Simian (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Pink": {
+      "name": "Pink",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Halsey": {
+      "name": "Halsey",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Simian": {
+      "name": "Simian",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Foo Fighters": {
+      "name": "Foo Fighters",
+      "type": "band",
+      "origin": "Seattle|,|Washington|, U.S.",
+      "genres": [
+        "Alternative rock",
+        "post-grunge",
+        "hard rock"
+      ],
+      "years_active": "1994–present",
+      "labels": [
+        "Roswell",
+        "Capitol",
+        "RCA"
+      ],
+      "instruments": [],
+      "website": "foofighters|.com",
+      "members": [
+        "Dave Grohl",
+        "Nate Mendel",
+        "Pat Smear",
+        "Chris Shiflett",
+        "Rami Jaffee",
+        "Ilan Rubin"
+      ],
+      "past_members": []
+    },
+    "genre_post-grunge": {
+      "name": "post-grunge",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_hard rock": {
+      "name": "hard rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Roswell": {
+      "name": "Roswell",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Dave Grohl": {
+      "name": "Dave Grohl",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Machine Gun Kelly": {
+      "name": "Machine Gun Kelly",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Probot": {
+      "name": "Probot",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Scream (": {
+      "name": "Scream (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Heart": {
+      "name": "Heart",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Black Flag (": {
+      "name": "Black Flag (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Radio Contra": {
+      "name": "Radio Contra",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Heart (": {
+      "name": "Heart (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Probot (": {
+      "name": "Probot (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Scream": {
+      "name": "Scream",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Germs (": {
+      "name": "Germs (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Black Flag": {
+      "name": "Black Flag",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Germs": {
+      "name": "Germs",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Pearl Jam": {
+      "name": "Pearl Jam",
+      "type": "band",
+      "origin": "Seattle|,|Washington|, U.S.",
+      "genres": [
+        "Alternative rock",
+        "grunge",
+        "hard rock"
+      ],
+      "years_active": "1990–present",
+      "labels": [
+        "Monkeywrench",
+        "Universal",
+        "J",
+        "Epic",
+        "Third Man"
+      ],
+      "instruments": [],
+      "website": "pearljam|.com",
+      "members": [
+        "Jeff Ament",
+        "Stone Gossard",
+        "Mike McCready",
+        "Eddie Vedder"
+      ],
+      "past_members": []
+    },
+    "genre_grunge": {
+      "name": "grunge",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Monkeywrench": {
+      "name": "Monkeywrench",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Universal": {
+      "name": "Universal",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_J": {
+      "name": "J",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Third Man": {
+      "name": "Third Man",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Shawn Smith": {
+      "name": "Shawn Smith",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Journey (": {
+      "name": "Journey (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Our": {
+      "name": "Our",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Green River (": {
+      "name": "Green River (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Journey": {
+      "name": "Journey",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Green River": {
+      "name": "Green River",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Unified Theory": {
+      "name": "Unified Theory",
+      "type": "artist",
+      "placeholder": true
+    },
+    "The Frogs (": {
+      "name": "The Frogs (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "The Frogs": {
+      "name": "The Frogs",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Unified Theory (": {
+      "name": "Unified Theory (",
       "type": "artist",
       "placeholder": true
     },
@@ -328,11 +1870,6 @@
       "type": "genre",
       "category": "musical_genre"
     },
-    "genre_rock": {
-      "name": "rock",
-      "type": "genre",
-      "category": "musical_genre"
-    },
     "label_Big Machine": {
       "name": "Big Machine",
       "type": "label",
@@ -343,136 +1880,3406 @@
       "type": "label",
       "category": "record_label"
     },
-    "Mike Reid": {
-      "name": "Mike Reid",
-      "type": "artist",
-      "placeholder": true
+    "The Beatles": {
+      "name": "The Beatles",
+      "type": "solo_artist",
+      "origin": "Liverpool|, England",
+      "genres": [
+        "Rock",
+        "pop",
+        "beat",
+        "psychedelia"
+      ],
+      "years_active": "1960–1970",
+      "labels": [
+        "Polydor",
+        "Parlophone",
+        "Tollie",
+        "Vee-Jay",
+        "Capitol",
+        "Swan",
+        "Odeon",
+        "MGM",
+        "Atco",
+        "United Artists",
+        "Apple"
+      ],
+      "instruments": [],
+      "website": "thebeatles|.com"
     },
-    "Taylor Swift singles": {
-      "name": "Taylor Swift singles",
-      "type": "artist",
-      "placeholder": true
-    },
-    "genre_Grunge": {
-      "name": "Grunge",
+    "genre_Rock": {
+      "name": "Rock",
       "type": "genre",
       "category": "musical_genre"
     },
-    "genre_alternative rock": {
-      "name": "alternative rock",
+    "genre_beat": {
+      "name": "beat",
       "type": "genre",
       "category": "musical_genre"
     },
-    "genre_punk rock": {
-      "name": "punk rock",
+    "genre_psychedelia": {
+      "name": "psychedelia",
       "type": "genre",
       "category": "musical_genre"
     },
-    "label_Sub Pop": {
-      "name": "Sub Pop",
+    "label_Polydor": {
+      "name": "Polydor",
       "type": "label",
       "category": "record_label"
     },
-    "label_DGC": {
-      "name": "DGC",
+    "label_Tollie": {
+      "name": "Tollie",
       "type": "label",
       "category": "record_label"
     },
-    "Deer Tick (": {
-      "name": "Deer Tick (",
+    "label_Vee-Jay": {
+      "name": "Vee-Jay",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Swan": {
+      "name": "Swan",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Odeon": {
+      "name": "Odeon",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_MGM": {
+      "name": "MGM",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Atco": {
+      "name": "Atco",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_United Artists": {
+      "name": "United Artists",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Apple": {
+      "name": "Apple",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Sgt. Petsound%27s Lonely Hearts Club": {
+      "name": "Sgt. Petsound%27s Lonely Hearts Club",
       "type": "artist",
       "placeholder": true
     },
-    "Prince": {
-      "name": "Prince",
+    "Eminem": {
+      "name": "Eminem",
+      "type": "solo_artist",
+      "origin": "Detroit|, Michigan, U.S.",
+      "genres": [
+        "Hip-hop"
+      ],
+      "years_active": "",
+      "labels": [
+        "Shady",
+        "Aftermath",
+        "Interscope",
+        "Web",
+        "Polydor",
+        "[",
+        "2",
+        "]"
+      ],
+      "instruments": [],
+      "website": "eminem|.com"
+    },
+    "label_Shady": {
+      "name": "Shady",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Aftermath": {
+      "name": "Aftermath",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Web": {
+      "name": "Web",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Jay Z": {
+      "name": "Jay Z",
+      "type": "solo_artist",
+      "origin": "",
+      "genres": [
+        "East Coast hip-hop"
+      ],
+      "years_active": "",
+      "labels": [
+        "Roc Nation",
+        "Atlantic",
+        "Def Jam",
+        "Roc-A-Fella",
+        "NorthWestSide",
+        "[",
+        "5",
+        "]",
+        "Priority",
+        "Payday",
+        "FFRR"
+      ],
+      "instruments": [],
+      "website": "lifeandtimes|.com"
+    },
+    "genre_East Coast hip-hop": {
+      "name": "East Coast hip-hop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Roc Nation": {
+      "name": "Roc Nation",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_NorthWestSide": {
+      "name": "NorthWestSide",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_5": {
+      "name": "5",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Priority": {
+      "name": "Priority",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Payday": {
+      "name": "Payday",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_FFRR": {
+      "name": "FFRR",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Roc Nation albums": {
+      "name": "Roc Nation albums",
       "type": "artist",
       "placeholder": true
     },
-    "The National (": {
-      "name": "The National (",
+    "Jay-Z singles": {
+      "name": "Jay-Z singles",
       "type": "artist",
       "placeholder": true
     },
-    "Flipper": {
-      "name": "Flipper",
+    "Roc Nation singles": {
+      "name": "Roc Nation singles",
       "type": "artist",
       "placeholder": true
     },
-    "Kiss (": {
-      "name": "Kiss (",
+    "TLC": {
+      "name": "TLC",
       "type": "artist",
       "placeholder": true
     },
-    "Scream (": {
-      "name": "Scream (",
-      "type": "artist",
-      "placeholder": true
+    "Ken Nelson": {
+      "name": "Ken Nelson",
+      "type": "producer",
+      "category": "music_producer",
+      "specialty": "Alternative",
+      "active_years": "1990-present"
     },
-    "Flipper (": {
-      "name": "Flipper (",
-      "type": "artist",
-      "placeholder": true
+    "award_Brit Award for Best Group": {
+      "name": "Brit Award for Best Group",
+      "type": "Brit",
+      "category": "music_award",
+      "organization": "BPI",
+      "country": "UK"
     },
-    "Nirvana (disambiguation)#": {
-      "name": "Nirvana (disambiguation)#",
-      "type": "artist",
-      "placeholder": true
+    "chart_UK Singles Chart": {
+      "name": "UK Singles Chart",
+      "type": "singles",
+      "category": "music_chart",
+      "country": "UK",
+      "organization": "Official Albums Chart"
     },
-    "Deer Tick": {
-      "name": "Deer Tick",
-      "type": "artist",
-      "placeholder": true
+    "Nigel Godrich": {
+      "name": "Nigel Godrich",
+      "type": "producer",
+      "category": "music_producer",
+      "specialty": "Experimental",
+      "active_years": "1990-present"
     },
-    "The National": {
-      "name": "The National",
-      "type": "artist",
-      "placeholder": true
+    "award_Grammy Award for Best Alternative Music Album": {
+      "name": "Grammy Award for Best Alternative Music Album",
+      "type": "Grammy",
+      "category": "music_award",
+      "organization": "Recording Academy",
+      "country": "USA"
     },
-    "Scream": {
-      "name": "Scream",
-      "type": "artist",
-      "placeholder": true
+    "James Ford": {
+      "name": "James Ford",
+      "type": "producer",
+      "category": "music_producer",
+      "specialty": "Indie",
+      "active_years": "2000-present"
     },
-    "The": {
-      "name": "The",
-      "type": "artist",
-      "placeholder": true
+    "award_Mercury Prize": {
+      "name": "Mercury Prize",
+      "type": "Mercury",
+      "category": "music_award",
+      "organization": "Mercury Prize",
+      "country": "UK"
     },
-    "Bobby Jones": {
-      "name": "Bobby Jones",
-      "type": "artist",
-      "placeholder": true
+    "chart_Billboard Hot 100": {
+      "name": "Billboard Hot 100",
+      "type": "singles",
+      "category": "music_chart",
+      "country": "USA",
+      "organization": "Billboard"
     },
-    "Kiss": {
-      "name": "Kiss",
-      "type": "artist",
-      "placeholder": true
+    "George Martin": {
+      "name": "George Martin",
+      "type": "producer",
+      "category": "music_producer",
+      "specialty": "Classical",
+      "active_years": "1950-2006"
     },
-    "St. Vincent": {
-      "name": "St. Vincent",
-      "type": "artist",
-      "placeholder": true
-    },
-    "Machine Gun Kelly": {
-      "name": "Machine Gun Kelly",
-      "type": "artist",
-      "placeholder": true
+    "award_Grammy Award for Album of the Year": {
+      "name": "Grammy Award for Album of the Year",
+      "type": "Grammy",
+      "category": "music_award",
+      "organization": "Recording Academy",
+      "country": "USA"
     }
   },
   "edges": [
+    {
+      "source": "Coldplay",
+      "target": "genre_Alternative rock",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "Coldplay",
+      "target": "genre_pop rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Coldplay",
+      "target": "genre_post-Britpop",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Coldplay",
+      "target": "genre_pop",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "Coldplay",
+      "target": "label_Fierce Panda",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Coldplay",
+      "target": "label_Parlophone",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Coldplay",
+      "target": "label_Nettwerk",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Coldplay",
+      "target": "label_Capitol",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Coldplay",
+      "target": "label_Atlantic",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Coldplay",
+      "target": "Toto",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Coldplay",
+      "target": "Eagles",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Coldplay",
+      "target": "Raina",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Coldplay",
+      "target": "St. Vincent",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Coldplay",
+      "target": "Toto (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Coldplay",
+      "target": "Keane (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Coldplay",
+      "target": "Eagles (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Coldplay",
+      "target": "Naul",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Coldplay",
+      "target": "Seal",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Coldplay",
+      "target": "Keane",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Coldplay",
+      "target": "Ken Nelson",
+      "edge_type": "produced_by",
+      "weight": 1.5,
+      "album": "Parachutes",
+      "year": "2000",
+      "songs": []
+    },
+    {
+      "source": "Coldplay",
+      "target": "award_Brit Award for Best Group",
+      "edge_type": "won_award",
+      "weight": 1.0,
+      "year": "2001",
+      "category": "Best Group",
+      "work": "",
+      "result": "won"
+    },
+    {
+      "source": "Coldplay",
+      "target": "chart_UK Singles Chart",
+      "edge_type": "charted_on",
+      "weight": 2.2,
+      "peak_position": "4",
+      "weeks_on_chart": "12",
+      "year": "2000",
+      "work": "Yellow"
+    },
+    {
+      "source": "genre_Alternative rock",
+      "target": "Foo Fighters",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "genre_Alternative rock",
+      "target": "Pearl Jam",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "genre_pop",
+      "target": "Kanye West",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "genre_pop",
+      "target": "The Beatles",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "label_Parlophone",
+      "target": "Radiohead",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Parlophone",
+      "target": "The Beatles",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Capitol",
+      "target": "Radiohead",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Capitol",
+      "target": "Foo Fighters",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Capitol",
+      "target": "The Beatles",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Atlantic",
+      "target": "Foster The People",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Atlantic",
+      "target": "Bruno Mars",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Atlantic",
+      "target": "Ed Sheeran",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Atlantic",
+      "target": "Led Zeppelin",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Atlantic",
+      "target": "Jay Z",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Toto",
+      "target": "Arcade Fire",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto",
+      "target": "Bruno Mars",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto",
+      "target": "Adele",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto",
+      "target": "Green Day",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto",
+      "target": "Taylor Swift",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto",
+      "target": "The Beatles",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Eagles",
+      "target": "Arctic Monkeys",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Eagles",
+      "target": "Bruno Mars",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Eagles",
+      "target": "Adele",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Eagles",
+      "target": "Green Day",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Eagles",
+      "target": "Led Zeppelin",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Eagles",
+      "target": "Taylor Swift",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "St. Vincent",
+      "target": "Tame Impala",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto (",
+      "target": "Arcade Fire",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto (",
+      "target": "Bruno Mars",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto (",
+      "target": "Adele",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto (",
+      "target": "Green Day",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto (",
+      "target": "Taylor Swift",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto (",
+      "target": "The Beatles",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Keane (",
+      "target": "Radiohead",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Keane (",
+      "target": "Arctic Monkeys",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Keane (",
+      "target": "Adele",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Keane (",
+      "target": "Ed Sheeran",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Keane (",
+      "target": "The Beatles",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Eagles (",
+      "target": "Arctic Monkeys",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Eagles (",
+      "target": "Bruno Mars",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Eagles (",
+      "target": "Adele",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Eagles (",
+      "target": "Green Day",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Eagles (",
+      "target": "Led Zeppelin",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Eagles (",
+      "target": "Taylor Swift",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Seal",
+      "target": "Arctic Monkeys",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Seal",
+      "target": "Bruno Mars",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Seal",
+      "target": "Adele",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Seal",
+      "target": "Ed Sheeran",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Seal",
+      "target": "The Beatles",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Keane",
+      "target": "Radiohead",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Keane",
+      "target": "Arctic Monkeys",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Keane",
+      "target": "Adele",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Keane",
+      "target": "Ed Sheeran",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Keane",
+      "target": "The Beatles",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "genre_Indie rock",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "genre_[",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 18
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "genre_1",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "genre_]",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 20
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "genre_indie pop",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 5
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "genre_2",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 7
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "genre_art pop",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 9
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "genre_3",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 11
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "genre_baroque pop",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 13
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "genre_4",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 15
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "genre_worldbeat",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 17
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "genre_5",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 19
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "label_XL",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "label_Columbia",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Steve Lacy",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Haim",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Rancid (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Nirvana",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Nirvana (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Beach House",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Beach House (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Phoenix (French",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Rancid",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Jam",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Fan death (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Haim (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Vampire Weekend",
+      "target": "Fan death",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "genre_Indie rock",
+      "target": "Arcade Fire",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "genre_Indie rock",
+      "target": "Arctic Monkeys",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "genre_Indie rock",
+      "target": "The Strokes",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "genre_[",
+      "target": "Tame Impala",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 18
+    },
+    {
+      "source": "genre_[",
+      "target": "Adele",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 18
+    },
+    {
+      "source": "genre_1",
+      "target": "Tame Impala",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "genre_1",
+      "target": "Adele",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "genre_]",
+      "target": "Tame Impala",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 20
+    },
+    {
+      "source": "genre_]",
+      "target": "Adele",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 20
+    },
+    {
+      "source": "genre_2",
+      "target": "Tame Impala",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 7
+    },
+    {
+      "source": "genre_2",
+      "target": "Adele",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 7
+    },
+    {
+      "source": "genre_art pop",
+      "target": "Kanye West",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "genre_3",
+      "target": "Tame Impala",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 11
+    },
+    {
+      "source": "genre_3",
+      "target": "Adele",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 11
+    },
+    {
+      "source": "genre_baroque pop",
+      "target": "Arcade Fire",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "genre_4",
+      "target": "Tame Impala",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 15
+    },
+    {
+      "source": "genre_4",
+      "target": "Adele",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 15
+    },
+    {
+      "source": "genre_5",
+      "target": "Tame Impala",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 19
+    },
+    {
+      "source": "genre_5",
+      "target": "Adele",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 19
+    },
+    {
+      "source": "label_XL",
+      "target": "Radiohead",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_XL",
+      "target": "Adele",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Columbia",
+      "target": "Arcade Fire",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Columbia",
+      "target": "Foster The People",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Columbia",
+      "target": "Tame Impala",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Columbia",
+      "target": "Adele",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Haim",
+      "target": "Arcade Fire",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Haim",
+      "target": "Tame Impala",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Vasu",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Nirvana (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Nirvana",
+      "edge_type": "member_of",
+      "weight": 1.0,
+      "period": "1987-1994",
+      "role": "lead_singer",
+      "status": "former"
+    },
+    {
+      "source": "Nirvana",
+      "target": "The Strokes",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana (",
+      "target": "The Strokes",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Phoenix (French",
+      "target": "Radiohead",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Phoenix (French",
+      "target": "Green Day",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Haim (",
+      "target": "Arcade Fire",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Haim (",
+      "target": "Tame Impala",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Radiohead",
+      "target": "genre_Art rock",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "Radiohead",
+      "target": "genre_alternative rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Radiohead",
+      "target": "genre_electronica",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Radiohead",
+      "target": "genre_experimental rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "Radiohead",
+      "target": "label_EMI",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Radiohead",
+      "target": "label_Ticker Tape Ltd.",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Radiohead",
+      "target": "label_Hostess",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Radiohead",
+      "target": "label_TBD",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Radiohead",
+      "target": "Kneecap",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Radiohead",
+      "target": "Flea",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Radiohead",
+      "target": "Atoms for Peace (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Radiohead",
+      "target": "The Humphrey Lyttelton",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Radiohead",
+      "target": "Belly",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Radiohead",
+      "target": "Kneecap (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Radiohead",
+      "target": "Pixies",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Radiohead",
+      "target": "M.I.A.",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Radiohead",
+      "target": "Pixies (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Radiohead",
+      "target": "Belly (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Radiohead",
+      "target": "Atoms for Peace",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Radiohead",
+      "target": "Nigel Godrich",
+      "edge_type": "produced_by",
+      "weight": 2.0,
+      "album": "OK Computer",
+      "year": "1997",
+      "songs": []
+    },
+    {
+      "source": "Radiohead",
+      "target": "award_Grammy Award for Best Alternative Music Album",
+      "edge_type": "won_award",
+      "weight": 1.0,
+      "year": "1998",
+      "category": "Best Alternative Album",
+      "work": "OK Computer",
+      "result": "won"
+    },
+    {
+      "source": "genre_alternative rock",
+      "target": "Foster The People",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "genre_alternative rock",
+      "target": "Arctic Monkeys",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 5
+    },
+    {
+      "source": "genre_alternative rock",
+      "target": "Green Day",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "genre_art rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "genre_dance-rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "label_Sonovox",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "label_[",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "label_1",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "label_]",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "label_Merge",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "label_DFA",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "label_Rough Trade",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "label_City Slang",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "label_Spunk",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "label_Mercury",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "label_Virgin EMI",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "The War on Drugs",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "Muna",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "Muna (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "Sgt. Pepper%27s Lonely Hearts Club",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "Michael Olsen",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "The War on Drugs (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "Clues",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "Clues (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arcade Fire",
+      "target": "Patrick Watson",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "label_[",
+      "target": "Arctic Monkeys",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_[",
+      "target": "Travis Scott",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_[",
+      "target": "Green Day",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_[",
+      "target": "Eminem",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_[",
+      "target": "Jay Z",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_1",
+      "target": "Arctic Monkeys",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_]",
+      "target": "Arctic Monkeys",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_]",
+      "target": "Travis Scott",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_]",
+      "target": "Green Day",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_]",
+      "target": "Eminem",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_]",
+      "target": "Jay Z",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Rough Trade",
+      "target": "The Strokes",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The War on Drugs",
+      "target": "Tame Impala",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The War on Drugs",
+      "target": "Foo Fighters",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The War on Drugs",
+      "target": "Pearl Jam",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Muna",
+      "target": "Tame Impala",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Muna",
+      "target": "Kanye West",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Muna",
+      "target": "Foo Fighters",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Muna",
+      "target": "Pearl Jam",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Muna (",
+      "target": "Tame Impala",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Muna (",
+      "target": "Kanye West",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Muna (",
+      "target": "Foo Fighters",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Muna (",
+      "target": "Pearl Jam",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Sgt. Pepper%27s Lonely Hearts Club",
+      "target": "Arctic Monkeys",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The War on Drugs (",
+      "target": "Tame Impala",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The War on Drugs (",
+      "target": "Foo Fighters",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The War on Drugs (",
+      "target": "Pearl Jam",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Queen",
+      "target": "Queen (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foster The People",
+      "target": "genre_Indie pop",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "Foster The People",
+      "target": "genre_synth-pop",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Foster The People",
+      "target": "genre_dance-pop",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Foster The People",
+      "target": "genre_indie rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 5
+    },
+    {
+      "source": "Foster The People",
+      "target": "genre_neo-psychedelia",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 6
+    },
+    {
+      "source": "Foster The People",
+      "target": "label_Startime",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Foster The People",
+      "target": "label_Foster the People",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Foster The People",
+      "target": "The Internet",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foster The People",
+      "target": "Malbec (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foster The People",
+      "target": "Malbec",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foster The People",
+      "target": "Mark Foster",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foster The People",
+      "target": "The Internet (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "genre_synth-pop",
+      "target": "Tame Impala",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 13
+    },
+    {
+      "source": "genre_synth-pop",
+      "target": "The Strokes",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 5
+    },
+    {
+      "source": "genre_indie rock",
+      "target": "Tame Impala",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 9
+    },
+    {
+      "source": "genre_neo-psychedelia",
+      "target": "Tame Impala",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 17
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "genre_garage rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "genre_post-punk revival",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "genre_psychedelic rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "genre_lounge pop",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 6
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "label_Domino",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "label_Warner",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Foals",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Bros (British",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Jungle (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "The Rascals (English",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Placebo",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Gabrielle",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Sade",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Jungle",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Foals (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Cream",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Tom Walker",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Franz Ferdinand (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Sade (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Placebo (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Franz Ferdinand",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Royal Blood (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Royal Blood",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "Cream (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "James Ford",
+      "edge_type": "produced_by",
+      "weight": 1.8,
+      "album": "AM",
+      "year": "2013",
+      "songs": []
+    },
+    {
+      "source": "Arctic Monkeys",
+      "target": "award_Mercury Prize",
+      "edge_type": "nominated_for",
+      "weight": 1.0,
+      "year": "2006",
+      "category": "Album of the Year",
+      "work": "Whatever People Say I Am",
+      "result": "nominated"
+    },
+    {
+      "source": "genre_post-punk revival",
+      "target": "The Strokes",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "genre_psychedelic rock",
+      "target": "Tame Impala",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 5
+    },
+    {
+      "source": "label_Warner",
+      "target": "Green Day",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Cream",
+      "target": "Led Zeppelin",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Cream",
+      "target": "The Beatles",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Tom Walker",
+      "target": "Adele",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Tom Walker",
+      "target": "Ed Sheeran",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Franz Ferdinand (",
+      "target": "The Strokes",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Franz Ferdinand",
+      "target": "The Strokes",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Cream (",
+      "target": "Led Zeppelin",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Cream (",
+      "target": "The Beatles",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Travis Scott",
+      "target": "genre_Hip-hop",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "Travis Scott",
+      "target": "genre_trap",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Travis Scott",
+      "target": "genre_pop rap",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Travis Scott",
+      "target": "genre_psychedelic rap",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "Travis Scott",
+      "target": "label_Grand Hustle",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Travis Scott",
+      "target": "label_Epic",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Travis Scott",
+      "target": "label_Very GOOD Beats",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Travis Scott",
+      "target": "label_Cactus Jack",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Travis Scott",
+      "target": "label_7",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Travis Scott",
+      "target": "label_8",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Travis Scott",
+      "target": "Molotov",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Travis Scott",
+      "target": "Molotov (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Travis Scott",
+      "target": "Travis Scott production",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "genre_Hip-hop",
+      "target": "Kanye West",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "genre_Hip-hop",
+      "target": "Eminem",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "label_Epic",
+      "target": "Pearl Jam",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Tame Impala",
+      "target": "genre_Psychedelic pop",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "Tame Impala",
+      "target": "genre_electronic",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 21
+    },
+    {
+      "source": "Tame Impala",
+      "target": "label_Sony",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Tame Impala",
+      "target": "label_Modular",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Tame Impala",
+      "target": "label_Interscope",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Tame Impala",
+      "target": "label_Fiction",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Tame Impala",
+      "target": "label_Island Australia",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Tame Impala",
+      "target": "label_Caroline",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Tame Impala",
+      "target": "Kevin Parker",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Tame Impala",
+      "target": "Flume",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Tame Impala",
+      "target": "Jet (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Tame Impala",
+      "target": "Jet",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Tame Impala",
+      "target": "Clean",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Tame Impala",
+      "target": "Q-Tip",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "label_Interscope",
+      "target": "Eminem",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Jet (",
+      "target": "Foo Fighters",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Jet (",
+      "target": "Pearl Jam",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Jet",
+      "target": "Foo Fighters",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Jet",
+      "target": "Pearl Jam",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Q-Tip",
+      "target": "Kanye West",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Bruno Mars",
+      "target": "genre_Pop",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "Bruno Mars",
+      "target": "genre_R&B",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Bruno Mars",
+      "target": "genre_funk",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Bruno Mars",
+      "target": "genre_soul",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "Bruno Mars",
+      "target": "genre_reggae",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 5
+    },
+    {
+      "source": "Bruno Mars",
+      "target": "genre_rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 6
+    },
+    {
+      "source": "Bruno Mars",
+      "target": "label_Universal Motown",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Bruno Mars",
+      "target": "label_Elektra",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Bruno Mars",
+      "target": "Menudo",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Bruno Mars",
+      "target": "Ros%C3%A9",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Bruno Mars",
+      "target": "Collage (American",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "genre_Pop",
+      "target": "Adele",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "genre_Pop",
+      "target": "Ed Sheeran",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "genre_Pop",
+      "target": "Taylor Swift",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "genre_R&B",
+      "target": "Adele",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 17
+    },
+    {
+      "source": "genre_soul",
+      "target": "Adele",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 5
+    },
+    {
+      "source": "genre_rock",
+      "target": "Taylor Swift",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "label_Elektra",
+      "target": "Ed Sheeran",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Ros%C3%A9",
+      "target": "Taylor Swift",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Adele",
+      "target": "genre_blues",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 9
+    },
+    {
+      "source": "Adele",
+      "target": "genre_jazz",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 13
+    },
+    {
+      "source": "Adele",
+      "target": "label_Melted Stone",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Adele",
+      "target": "Mika",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Adele",
+      "target": "Peter Allen",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Mika",
+      "target": "Ed Sheeran",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "genre_folk-pop",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "genre_soft rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "label_Asylum",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "label_Gingerbread Man",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "David Ricketts",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "James Morrison",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "chart_UK Singles Chart",
+      "edge_type": "charted_on",
+      "weight": 2.8,
+      "peak_position": "1",
+      "weeks_on_chart": "8",
+      "year": "2017",
+      "work": "Shape of You"
+    },
+    {
+      "source": "Green Day",
+      "target": "genre_Punk rock",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "Green Day",
+      "target": "genre_pop-punk",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Green Day",
+      "target": "genre_skate punk",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "Green Day",
+      "target": "genre_power pop",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 5
+    },
+    {
+      "source": "Green Day",
+      "target": "label_Lookout",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Green Day",
+      "target": "label_Reprise",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Green Day",
+      "target": "label_Epitaph",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Green Day",
+      "target": "label_2",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Green Day",
+      "target": "Sublime (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Green Day",
+      "target": "Skids",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Green Day",
+      "target": "Isocracy",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Green Day",
+      "target": "Sublime",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Green Day",
+      "target": "Blackbear",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Green Day",
+      "target": "Isocracy (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Green Day",
+      "target": "Skids (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "label_2",
+      "target": "Eminem",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Strokes",
+      "target": "genre_garage rock revival",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "The Strokes",
+      "target": "genre_new wave",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "The Strokes",
+      "target": "label_Cult",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Strokes",
+      "target": "label_RCA",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Strokes",
+      "target": "CRX (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "Julian Casablancas",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "Muse (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "Blondie",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "Jack White",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "Muse",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "Liars",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "Liars (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "Blondie (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "CRX",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "Interpol",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "Interpol (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "Pulp (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Strokes",
+      "target": "Pulp",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "label_RCA",
+      "target": "Foo Fighters",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Muse (",
+      "target": "Led Zeppelin",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Muse",
+      "target": "Led Zeppelin",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "genre_Hard rock",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "genre_blues rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "genre_folk rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "genre_heavy metal",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "label_Swan Song",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "Rush",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "cover versions of Led Zeppelin",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "Rush (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "Santana",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "Sting",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "Michael Lee",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "John Paul Jones",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Led Zeppelin",
+      "target": "Santana (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Rush",
+      "target": "Pearl Jam",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Rush (",
+      "target": "Pearl Jam",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "John Paul Jones",
+      "target": "Foo Fighters",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Kanye West",
+      "target": "genre_progressive rap",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Kanye West",
+      "target": "genre_gospel",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 5
+    },
+    {
+      "source": "Kanye West",
+      "target": "label_GOOD",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Kanye West",
+      "target": "label_Island Def Jam",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Kanye West",
+      "target": "label_Def Jam",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Kanye West",
+      "target": "label_Roc-A-Fella",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Kanye West",
+      "target": "label_YZY",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Kanye West",
+      "target": "Simian (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Kanye West",
+      "target": "Pink",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Kanye West",
+      "target": "Halsey",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Kanye West",
+      "target": "Simian",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "label_Def Jam",
+      "target": "Jay Z",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "label_Roc-A-Fella",
+      "target": "Jay Z",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Pink",
+      "target": "Jay Z",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "genre_post-grunge",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "genre_hard rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "label_Roswell",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Dave Grohl",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Machine Gun Kelly",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Probot",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Scream (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Heart",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Black Flag (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Radio Contra",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Heart (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Probot (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Scream",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Germs (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Black Flag",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Germs",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Foo Fighters",
+      "target": "Foo Fighters",
+      "edge_type": "member_of",
+      "weight": 1.0,
+      "period": "1994-present",
+      "role": "lead_singer",
+      "status": "current"
+    },
+    {
+      "source": "genre_hard rock",
+      "target": "Pearl Jam",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Machine Gun Kelly",
+      "target": "Pearl Jam",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Machine Gun Kelly",
+      "target": "Eminem",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "genre_grunge",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "label_Monkeywrench",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "label_Universal",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "label_J",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "label_Third Man",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "Shawn Smith",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "Journey (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "Our",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "Green River (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "Journey",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "Green River",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "Unified Theory",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "The Frogs (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "The Frogs",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Pearl Jam",
+      "target": "Unified Theory (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "genre_country",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "genre_folk",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "label_Big Machine",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "label_Republic",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "chart_Billboard Hot 100",
+      "edge_type": "charted_on",
+      "weight": 2.5,
+      "peak_position": "1",
+      "weeks_on_chart": "6",
+      "year": "2014",
+      "work": "Blank Space"
+    },
     {
       "source": "The Beatles",
       "target": "genre_Rock",
       "edge_type": "plays_genre",
       "weight": 2.0,
       "genre_priority": 1
-    },
-    {
-      "source": "The Beatles",
-      "target": "genre_pop",
-      "edge_type": "plays_genre",
-      "weight": 1.0,
-      "genre_priority": 2
     },
     {
       "source": "The Beatles",
@@ -497,13 +5304,6 @@
     },
     {
       "source": "The Beatles",
-      "target": "label_Parlophone",
-      "edge_type": "signed_to",
-      "weight": 1.0,
-      "relationship": "record_label"
-    },
-    {
-      "source": "The Beatles",
       "target": "label_Tollie",
       "edge_type": "signed_to",
       "weight": 1.0,
@@ -512,13 +5312,6 @@
     {
       "source": "The Beatles",
       "target": "label_Vee-Jay",
-      "edge_type": "signed_to",
-      "weight": 1.0,
-      "relationship": "record_label"
-    },
-    {
-      "source": "The Beatles",
-      "target": "label_Capitol",
       "edge_type": "signed_to",
       "weight": 1.0,
       "relationship": "record_label"
@@ -567,490 +5360,150 @@
     },
     {
       "source": "The Beatles",
-      "target": "The Beatles singles",
+      "target": "Sgt. Petsound%27s Lonely Hearts Club",
       "edge_type": "collaborates_with",
       "weight": 1.0,
       "detected_from": "wikipedia_links"
     },
     {
       "source": "The Beatles",
-      "target": "Cream",
-      "edge_type": "collaborates_with",
+      "target": "The Beatles",
+      "edge_type": "member_of",
       "weight": 1.0,
-      "detected_from": "wikipedia_links"
+      "period": "1960-1970",
+      "role": "rhythm_guitarist",
+      "status": "former"
     },
     {
       "source": "The Beatles",
-      "target": "Keane (",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
+      "target": "George Martin",
+      "edge_type": "produced_by",
+      "weight": 2.0,
+      "album": "Abbey Road",
+      "year": "1969",
+      "songs": []
     },
     {
       "source": "The Beatles",
-      "target": "Foals",
-      "edge_type": "collaborates_with",
+      "target": "award_Grammy Award for Album of the Year",
+      "edge_type": "nominated_for",
       "weight": 1.0,
-      "detected_from": "wikipedia_links"
+      "year": "1967",
+      "category": "Album of the Year",
+      "work": "Revolver",
+      "result": "nominated"
     },
     {
       "source": "The Beatles",
-      "target": "Foals (",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
+      "target": "chart_Billboard Hot 100",
+      "edge_type": "charted_on",
+      "weight": 3.0,
+      "peak_position": "1",
+      "weeks_on_chart": "9",
+      "year": "1968",
+      "work": "Hey Jude"
     },
     {
-      "source": "The Beatles",
-      "target": "Nirvana (",
-      "edge_type": "collaborates_with",
+      "source": "label_Polydor",
+      "target": "Eminem",
+      "edge_type": "signed_to",
       "weight": 1.0,
-      "detected_from": "wikipedia_links"
+      "relationship": "record_label"
     },
     {
-      "source": "The Beatles",
-      "target": "Nirvana",
-      "edge_type": "collaborates_with",
+      "source": "Eminem",
+      "target": "label_Shady",
+      "edge_type": "signed_to",
       "weight": 1.0,
-      "detected_from": "wikipedia_links"
+      "relationship": "record_label"
     },
     {
-      "source": "The Beatles",
-      "target": "Engelbert Humperdinck",
-      "edge_type": "collaborates_with",
+      "source": "Eminem",
+      "target": "label_Aftermath",
+      "edge_type": "signed_to",
       "weight": 1.0,
-      "detected_from": "wikipedia_links"
+      "relationship": "record_label"
     },
     {
-      "source": "The Beatles",
-      "target": "Paul McCartney",
-      "edge_type": "collaborates_with",
+      "source": "Eminem",
+      "target": "label_Web",
+      "edge_type": "signed_to",
       "weight": 1.0,
-      "detected_from": "wikipedia_links"
+      "relationship": "record_label"
     },
     {
-      "source": "The Beatles",
-      "target": "Jungle (",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "The Beatles",
-      "target": "Toto (",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "The Beatles",
-      "target": "David Peel",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "The Beatles",
-      "target": "George Harrison",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "The Beatles",
-      "target": "Jungle",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "The Beatles",
-      "target": "Cream (",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "The Beatles",
-      "target": "Keane",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "The Beatles",
-      "target": "Ringo Starr %26 His All Starr",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "The Beatles",
-      "target": "Usher",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "The Beatles",
-      "target": "Toto",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Cream",
-      "target": "Nirvana",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Keane (",
-      "target": "Ed Sheeran",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana (",
-      "target": "Nirvana",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "genre_Grunge",
+      "source": "Jay Z",
+      "target": "genre_East Coast hip-hop",
       "edge_type": "plays_genre",
       "weight": 2.0,
       "genre_priority": 1
     },
     {
-      "source": "Nirvana",
-      "target": "genre_alternative rock",
-      "edge_type": "plays_genre",
-      "weight": 1.0,
-      "genre_priority": 2
-    },
-    {
-      "source": "Nirvana",
-      "target": "genre_punk rock",
-      "edge_type": "plays_genre",
-      "weight": 1.0,
-      "genre_priority": 3
-    },
-    {
-      "source": "Nirvana",
-      "target": "label_Sub Pop",
+      "source": "Jay Z",
+      "target": "label_Roc Nation",
       "edge_type": "signed_to",
       "weight": 1.0,
       "relationship": "record_label"
     },
     {
-      "source": "Nirvana",
-      "target": "label_DGC",
+      "source": "Jay Z",
+      "target": "label_NorthWestSide",
       "edge_type": "signed_to",
       "weight": 1.0,
       "relationship": "record_label"
     },
     {
-      "source": "Nirvana",
-      "target": "Deer Tick (",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "Prince",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "The National (",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "Flipper",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "Kiss (",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "Scream (",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "Flipper (",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "Nirvana (disambiguation)#",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "Deer Tick",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "Cream (",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "The National",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "Scream",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "The",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "Bobby Jones",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "Kiss",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "St. Vincent",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Nirvana",
-      "target": "Machine Gun Kelly",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Engelbert Humperdinck",
-      "target": "Ed Sheeran",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Toto (",
-      "target": "Taylor Swift",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Keane",
-      "target": "Ed Sheeran",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Usher",
-      "target": "Ed Sheeran",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Usher",
-      "target": "Taylor Swift",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Toto",
-      "target": "Taylor Swift",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Ed Sheeran",
-      "target": "genre_Pop",
-      "edge_type": "plays_genre",
-      "weight": 2.0,
-      "genre_priority": 1
-    },
-    {
-      "source": "Ed Sheeran",
-      "target": "genre_folk-pop",
-      "edge_type": "plays_genre",
-      "weight": 1.0,
-      "genre_priority": 2
-    },
-    {
-      "source": "Ed Sheeran",
-      "target": "genre_soft rock",
-      "edge_type": "plays_genre",
-      "weight": 1.0,
-      "genre_priority": 3
-    },
-    {
-      "source": "Ed Sheeran",
-      "target": "label_Asylum",
+      "source": "Jay Z",
+      "target": "label_5",
       "edge_type": "signed_to",
       "weight": 1.0,
       "relationship": "record_label"
     },
     {
-      "source": "Ed Sheeran",
-      "target": "label_Atlantic",
+      "source": "Jay Z",
+      "target": "label_Priority",
       "edge_type": "signed_to",
       "weight": 1.0,
       "relationship": "record_label"
     },
     {
-      "source": "Ed Sheeran",
-      "target": "label_Elektra",
+      "source": "Jay Z",
+      "target": "label_Payday",
       "edge_type": "signed_to",
       "weight": 1.0,
       "relationship": "record_label"
     },
     {
-      "source": "Ed Sheeran",
-      "target": "label_Gingerbread Man",
+      "source": "Jay Z",
+      "target": "label_FFRR",
       "edge_type": "signed_to",
       "weight": 1.0,
       "relationship": "record_label"
     },
     {
-      "source": "Ed Sheeran",
-      "target": "James Bay",
+      "source": "Jay Z",
+      "target": "Roc Nation albums",
       "edge_type": "collaborates_with",
       "weight": 1.0,
       "detected_from": "wikipedia_links"
     },
     {
-      "source": "Ed Sheeran",
-      "target": "Go West",
+      "source": "Jay Z",
+      "target": "Jay-Z singles",
       "edge_type": "collaborates_with",
       "weight": 1.0,
       "detected_from": "wikipedia_links"
     },
     {
-      "source": "Ed Sheeran",
-      "target": "Dan Wilson",
+      "source": "Jay Z",
+      "target": "Roc Nation singles",
       "edge_type": "collaborates_with",
       "weight": 1.0,
       "detected_from": "wikipedia_links"
     },
     {
-      "source": "Ed Sheeran",
-      "target": "Go West (",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Ed Sheeran",
-      "target": "Tourist",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "genre_Pop",
-      "target": "Taylor Swift",
-      "edge_type": "plays_genre",
-      "weight": 2.0,
-      "genre_priority": 1
-    },
-    {
-      "source": "Taylor Swift",
-      "target": "genre_country",
-      "edge_type": "plays_genre",
-      "weight": 1.0,
-      "genre_priority": 2
-    },
-    {
-      "source": "Taylor Swift",
-      "target": "genre_folk",
-      "edge_type": "plays_genre",
-      "weight": 1.0,
-      "genre_priority": 3
-    },
-    {
-      "source": "Taylor Swift",
-      "target": "genre_rock",
-      "edge_type": "plays_genre",
-      "weight": 1.0,
-      "genre_priority": 4
-    },
-    {
-      "source": "Taylor Swift",
-      "target": "label_Big Machine",
-      "edge_type": "signed_to",
-      "weight": 1.0,
-      "relationship": "record_label"
-    },
-    {
-      "source": "Taylor Swift",
-      "target": "label_Republic",
-      "edge_type": "signed_to",
-      "weight": 1.0,
-      "relationship": "record_label"
-    },
-    {
-      "source": "Taylor Swift",
-      "target": "Mike Reid",
-      "edge_type": "collaborates_with",
-      "weight": 1.0,
-      "detected_from": "wikipedia_links"
-    },
-    {
-      "source": "Taylor Swift",
-      "target": "Taylor Swift singles",
+      "source": "Jay Z",
+      "target": "TLC",
       "edge_type": "collaborates_with",
       "weight": 1.0,
       "detected_from": "wikipedia_links"

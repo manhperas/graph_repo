@@ -218,24 +218,47 @@ class WikipediaAnalyzer:
         return filtered_links
     
     def analyze_all_samples(self) -> Dict[str, Any]:
-        """Analyze all sample artist pages"""
-        sample_files = {
-            'the_beatles.html': 'The Beatles',
-            'ed_sheeran.html': 'Ed Sheeran',
-            'taylor_swift.html': 'Taylor Swift',
-            'nirvana.html': 'Nirvana'
-        }
+        """Analyze all HTML files in the data directory"""
+        html_files = list(self.data_dir.glob("*.html"))
+        
+        if not html_files:
+            print("No HTML files found in data directory!")
+            return {}
         
         results = {}
-        for filename, artist_name in sample_files.items():
+        for html_file in html_files:
+            filename = html_file.name
+            # Convert filename to artist name
+            artist_name = self.filename_to_artist_name(filename)
+            
             try:
-                print(f"Analyzing {artist_name}...")
+                print(f"Analyzing {artist_name} ({filename})...")
                 results[artist_name] = self.analyze_artist_page(filename, artist_name)
             except Exception as e:
                 print(f"Error analyzing {artist_name}: {str(e)}")
                 results[artist_name] = {'error': str(e)}
         
         return results
+    
+    def filename_to_artist_name(self, filename: str) -> str:
+        """Convert HTML filename to readable artist name"""
+        # Remove .html extension
+        name = filename.replace('.html', '')
+        
+        # Replace underscores with spaces and title case
+        name = name.replace('_', ' ').title()
+        
+        # Handle special cases
+        name_mapping = {
+            'The Beatles': 'The Beatles',
+            'Ed Sheeran': 'Ed Sheeran',
+            'Taylor Swift': 'Taylor Swift',
+            'Arctic Monkeys': 'Arctic Monkeys',
+            'Green Day': 'Green Day',
+            'Foo Fighters': 'Foo Fighters'
+        }
+        
+        return name_mapping.get(name, name)
     
     def save_analysis_results(self, results: Dict[str, Any], output_file: str = "data/processed/analysis_results.json"):
         """Save analysis results to JSON file"""
