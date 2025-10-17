@@ -1,0 +1,1059 @@
+{
+  "nodes": {
+    "The Beatles": {
+      "name": "The Beatles",
+      "type": "solo_artist",
+      "origin": "Liverpool|, England",
+      "genres": [
+        "Rock",
+        "pop",
+        "beat",
+        "psychedelia"
+      ],
+      "years_active": "1960–1970",
+      "labels": [
+        "Polydor",
+        "Parlophone",
+        "Tollie",
+        "Vee-Jay",
+        "Capitol",
+        "Swan",
+        "Odeon",
+        "MGM",
+        "Atco",
+        "United Artists",
+        "Apple"
+      ],
+      "instruments": [],
+      "website": "thebeatles|.com"
+    },
+    "genre_Rock": {
+      "name": "Rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_pop": {
+      "name": "pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_beat": {
+      "name": "beat",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_psychedelia": {
+      "name": "psychedelia",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Polydor": {
+      "name": "Polydor",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Parlophone": {
+      "name": "Parlophone",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Tollie": {
+      "name": "Tollie",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Vee-Jay": {
+      "name": "Vee-Jay",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Capitol": {
+      "name": "Capitol",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Swan": {
+      "name": "Swan",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Odeon": {
+      "name": "Odeon",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_MGM": {
+      "name": "MGM",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Atco": {
+      "name": "Atco",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_United Artists": {
+      "name": "United Artists",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Apple": {
+      "name": "Apple",
+      "type": "label",
+      "category": "record_label"
+    },
+    "The Beatles singles": {
+      "name": "The Beatles singles",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Cream": {
+      "name": "Cream",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Keane (": {
+      "name": "Keane (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Foals": {
+      "name": "Foals",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Foals (": {
+      "name": "Foals (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Nirvana (": {
+      "name": "Nirvana (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Nirvana": {
+      "name": "Nirvana",
+      "type": "solo_artist",
+      "origin": "Aberdeen, Washington|, U.S.",
+      "genres": [
+        "Grunge",
+        "alternative rock",
+        "punk rock"
+      ],
+      "years_active": "1987–1994",
+      "labels": [
+        "Sub Pop",
+        "DGC"
+      ],
+      "instruments": [],
+      "website": "nirvana|.com"
+    },
+    "Engelbert Humperdinck": {
+      "name": "Engelbert Humperdinck",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Paul McCartney": {
+      "name": "Paul McCartney",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Jungle (": {
+      "name": "Jungle (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Toto (": {
+      "name": "Toto (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "David Peel": {
+      "name": "David Peel",
+      "type": "artist",
+      "placeholder": true
+    },
+    "George Harrison": {
+      "name": "George Harrison",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Jungle": {
+      "name": "Jungle",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Cream (": {
+      "name": "Cream (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Keane": {
+      "name": "Keane",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Ringo Starr %26 His All Starr": {
+      "name": "Ringo Starr %26 His All Starr",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Usher": {
+      "name": "Usher",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Toto": {
+      "name": "Toto",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Ed Sheeran": {
+      "name": "Ed Sheeran",
+      "type": "solo_artist",
+      "origin": "Framlingham|, Suffolk, England",
+      "genres": [
+        "Pop",
+        "folk-pop",
+        "soft rock"
+      ],
+      "years_active": "",
+      "labels": [
+        "Asylum",
+        "Atlantic",
+        "Elektra",
+        "Gingerbread Man"
+      ],
+      "instruments": [
+        "Vocals",
+        "guitar",
+        "[",
+        "1",
+        "]"
+      ],
+      "website": "edsheeran|.com"
+    },
+    "genre_Pop": {
+      "name": "Pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_folk-pop": {
+      "name": "folk-pop",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_soft rock": {
+      "name": "soft rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Asylum": {
+      "name": "Asylum",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Atlantic": {
+      "name": "Atlantic",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Elektra": {
+      "name": "Elektra",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Gingerbread Man": {
+      "name": "Gingerbread Man",
+      "type": "label",
+      "category": "record_label"
+    },
+    "James Bay": {
+      "name": "James Bay",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Go West": {
+      "name": "Go West",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Dan Wilson": {
+      "name": "Dan Wilson",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Go West (": {
+      "name": "Go West (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Tourist": {
+      "name": "Tourist",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Taylor Swift": {
+      "name": "Taylor Swift",
+      "type": "solo_artist",
+      "origin": "Nashville, Tennessee",
+      "genres": [
+        "Pop",
+        "country",
+        "folk",
+        "rock"
+      ],
+      "years_active": "",
+      "labels": [
+        "Big Machine",
+        "Republic"
+      ],
+      "instruments": [
+        "Vocals",
+        "guitar",
+        "piano",
+        "banjo",
+        "ukulele"
+      ],
+      "website": "taylorswift|.com"
+    },
+    "genre_country": {
+      "name": "country",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_folk": {
+      "name": "folk",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_rock": {
+      "name": "rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Big Machine": {
+      "name": "Big Machine",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_Republic": {
+      "name": "Republic",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Mike Reid": {
+      "name": "Mike Reid",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Taylor Swift singles": {
+      "name": "Taylor Swift singles",
+      "type": "artist",
+      "placeholder": true
+    },
+    "genre_Grunge": {
+      "name": "Grunge",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_alternative rock": {
+      "name": "alternative rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "genre_punk rock": {
+      "name": "punk rock",
+      "type": "genre",
+      "category": "musical_genre"
+    },
+    "label_Sub Pop": {
+      "name": "Sub Pop",
+      "type": "label",
+      "category": "record_label"
+    },
+    "label_DGC": {
+      "name": "DGC",
+      "type": "label",
+      "category": "record_label"
+    },
+    "Deer Tick (": {
+      "name": "Deer Tick (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Prince": {
+      "name": "Prince",
+      "type": "artist",
+      "placeholder": true
+    },
+    "The National (": {
+      "name": "The National (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Flipper": {
+      "name": "Flipper",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Kiss (": {
+      "name": "Kiss (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Scream (": {
+      "name": "Scream (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Flipper (": {
+      "name": "Flipper (",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Nirvana (disambiguation)#": {
+      "name": "Nirvana (disambiguation)#",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Deer Tick": {
+      "name": "Deer Tick",
+      "type": "artist",
+      "placeholder": true
+    },
+    "The National": {
+      "name": "The National",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Scream": {
+      "name": "Scream",
+      "type": "artist",
+      "placeholder": true
+    },
+    "The": {
+      "name": "The",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Bobby Jones": {
+      "name": "Bobby Jones",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Kiss": {
+      "name": "Kiss",
+      "type": "artist",
+      "placeholder": true
+    },
+    "St. Vincent": {
+      "name": "St. Vincent",
+      "type": "artist",
+      "placeholder": true
+    },
+    "Machine Gun Kelly": {
+      "name": "Machine Gun Kelly",
+      "type": "artist",
+      "placeholder": true
+    }
+  },
+  "edges": [
+    {
+      "source": "The Beatles",
+      "target": "genre_Rock",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "The Beatles",
+      "target": "genre_pop",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "The Beatles",
+      "target": "genre_beat",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "The Beatles",
+      "target": "genre_psychedelia",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "The Beatles",
+      "target": "label_Polydor",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Beatles",
+      "target": "label_Parlophone",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Beatles",
+      "target": "label_Tollie",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Beatles",
+      "target": "label_Vee-Jay",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Beatles",
+      "target": "label_Capitol",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Beatles",
+      "target": "label_Swan",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Beatles",
+      "target": "label_Odeon",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Beatles",
+      "target": "label_MGM",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Beatles",
+      "target": "label_Atco",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Beatles",
+      "target": "label_United Artists",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Beatles",
+      "target": "label_Apple",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "The Beatles",
+      "target": "The Beatles singles",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Cream",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Keane (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Foals",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Foals (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Nirvana (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Nirvana",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Engelbert Humperdinck",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Paul McCartney",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Jungle (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Toto (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "David Peel",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "George Harrison",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Jungle",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Cream (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Keane",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Ringo Starr %26 His All Starr",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Usher",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Toto",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Cream",
+      "target": "Nirvana",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Keane (",
+      "target": "Ed Sheeran",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana (",
+      "target": "Nirvana",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "genre_Grunge",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "Nirvana",
+      "target": "genre_alternative rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Nirvana",
+      "target": "genre_punk rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Nirvana",
+      "target": "label_Sub Pop",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Nirvana",
+      "target": "label_DGC",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Deer Tick (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Prince",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "The National (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Flipper",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Kiss (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Scream (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Flipper (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Nirvana (disambiguation)#",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Deer Tick",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Cream (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "The National",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Scream",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "The",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Bobby Jones",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Kiss",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "St. Vincent",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Nirvana",
+      "target": "Machine Gun Kelly",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Engelbert Humperdinck",
+      "target": "Ed Sheeran",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto (",
+      "target": "Taylor Swift",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Keane",
+      "target": "Ed Sheeran",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Usher",
+      "target": "Ed Sheeran",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Usher",
+      "target": "Taylor Swift",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Toto",
+      "target": "Taylor Swift",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "genre_Pop",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "genre_folk-pop",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "genre_soft rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "label_Asylum",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "label_Atlantic",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "label_Elektra",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "label_Gingerbread Man",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "James Bay",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "Go West",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "Dan Wilson",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "Go West (",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Ed Sheeran",
+      "target": "Tourist",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "genre_Pop",
+      "target": "Taylor Swift",
+      "edge_type": "plays_genre",
+      "weight": 2.0,
+      "genre_priority": 1
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "genre_country",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 2
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "genre_folk",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 3
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "genre_rock",
+      "edge_type": "plays_genre",
+      "weight": 1.0,
+      "genre_priority": 4
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "label_Big Machine",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "label_Republic",
+      "edge_type": "signed_to",
+      "weight": 1.0,
+      "relationship": "record_label"
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "Mike Reid",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "Taylor Swift singles",
+      "edge_type": "collaborates_with",
+      "weight": 1.0,
+      "detected_from": "wikipedia_links"
+    }
+  ]
+}

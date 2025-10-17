@@ -1,0 +1,1099 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-10-17">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="10" title="edge_type" type="string" />
+      <attribute id="11" title="genre_priority" type="long" />
+      <attribute id="12" title="relationship" type="string" />
+      <attribute id="13" title="detected_from" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="name" type="string" />
+      <attribute id="1" title="type" type="string" />
+      <attribute id="2" title="origin" type="string" />
+      <attribute id="3" title="genres" type="string" />
+      <attribute id="4" title="years_active" type="string" />
+      <attribute id="5" title="labels" type="string" />
+      <attribute id="6" title="instruments" type="string" />
+      <attribute id="7" title="website" type="string" />
+      <attribute id="8" title="category" type="string" />
+      <attribute id="9" title="placeholder" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="The Beatles" label="The Beatles">
+        <attvalues>
+          <attvalue for="0" value="The Beatles" />
+          <attvalue for="1" value="solo_artist" />
+          <attvalue for="2" value="Liverpool|, England" />
+          <attvalue for="3" value="Rock, pop, beat, psychedelia" />
+          <attvalue for="4" value="1960–1970" />
+          <attvalue for="5" value="Polydor, Parlophone, Tollie, Vee-Jay, Capitol, Swan, Odeon, MGM, Atco, United Artists, Apple" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="thebeatles|.com" />
+        </attvalues>
+      </node>
+      <node id="genre_Rock" label="genre_Rock">
+        <attvalues>
+          <attvalue for="0" value="Rock" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="genre_pop" label="genre_pop">
+        <attvalues>
+          <attvalue for="0" value="pop" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="genre_beat" label="genre_beat">
+        <attvalues>
+          <attvalue for="0" value="beat" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="genre_psychedelia" label="genre_psychedelia">
+        <attvalues>
+          <attvalue for="0" value="psychedelia" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="label_Polydor" label="label_Polydor">
+        <attvalues>
+          <attvalue for="0" value="Polydor" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_Parlophone" label="label_Parlophone">
+        <attvalues>
+          <attvalue for="0" value="Parlophone" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_Tollie" label="label_Tollie">
+        <attvalues>
+          <attvalue for="0" value="Tollie" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_Vee-Jay" label="label_Vee-Jay">
+        <attvalues>
+          <attvalue for="0" value="Vee-Jay" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_Capitol" label="label_Capitol">
+        <attvalues>
+          <attvalue for="0" value="Capitol" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_Swan" label="label_Swan">
+        <attvalues>
+          <attvalue for="0" value="Swan" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_Odeon" label="label_Odeon">
+        <attvalues>
+          <attvalue for="0" value="Odeon" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_MGM" label="label_MGM">
+        <attvalues>
+          <attvalue for="0" value="MGM" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_Atco" label="label_Atco">
+        <attvalues>
+          <attvalue for="0" value="Atco" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_United Artists" label="label_United Artists">
+        <attvalues>
+          <attvalue for="0" value="United Artists" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_Apple" label="label_Apple">
+        <attvalues>
+          <attvalue for="0" value="Apple" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="The Beatles singles" label="The Beatles singles">
+        <attvalues>
+          <attvalue for="0" value="The Beatles singles" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Cream" label="Cream">
+        <attvalues>
+          <attvalue for="0" value="Cream" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Keane (" label="Keane (">
+        <attvalues>
+          <attvalue for="0" value="Keane (" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Foals" label="Foals">
+        <attvalues>
+          <attvalue for="0" value="Foals" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Foals (" label="Foals (">
+        <attvalues>
+          <attvalue for="0" value="Foals (" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Nirvana (" label="Nirvana (">
+        <attvalues>
+          <attvalue for="0" value="Nirvana (" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Nirvana" label="Nirvana">
+        <attvalues>
+          <attvalue for="0" value="Nirvana" />
+          <attvalue for="1" value="solo_artist" />
+          <attvalue for="2" value="Aberdeen, Washington|, U.S." />
+          <attvalue for="3" value="Grunge, alternative rock, punk rock" />
+          <attvalue for="4" value="1987–1994" />
+          <attvalue for="5" value="Sub Pop, DGC" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="nirvana|.com" />
+        </attvalues>
+      </node>
+      <node id="Engelbert Humperdinck" label="Engelbert Humperdinck">
+        <attvalues>
+          <attvalue for="0" value="Engelbert Humperdinck" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Paul McCartney" label="Paul McCartney">
+        <attvalues>
+          <attvalue for="0" value="Paul McCartney" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Jungle (" label="Jungle (">
+        <attvalues>
+          <attvalue for="0" value="Jungle (" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Toto (" label="Toto (">
+        <attvalues>
+          <attvalue for="0" value="Toto (" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="David Peel" label="David Peel">
+        <attvalues>
+          <attvalue for="0" value="David Peel" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="George Harrison" label="George Harrison">
+        <attvalues>
+          <attvalue for="0" value="George Harrison" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Jungle" label="Jungle">
+        <attvalues>
+          <attvalue for="0" value="Jungle" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Cream (" label="Cream (">
+        <attvalues>
+          <attvalue for="0" value="Cream (" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Keane" label="Keane">
+        <attvalues>
+          <attvalue for="0" value="Keane" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Ringo Starr %26 His All Starr" label="Ringo Starr %26 His All Starr">
+        <attvalues>
+          <attvalue for="0" value="Ringo Starr %26 His All Starr" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Usher" label="Usher">
+        <attvalues>
+          <attvalue for="0" value="Usher" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Toto" label="Toto">
+        <attvalues>
+          <attvalue for="0" value="Toto" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Ed Sheeran" label="Ed Sheeran">
+        <attvalues>
+          <attvalue for="0" value="Ed Sheeran" />
+          <attvalue for="1" value="solo_artist" />
+          <attvalue for="2" value="Framlingham|, Suffolk, England" />
+          <attvalue for="3" value="Pop, folk-pop, soft rock" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="Asylum, Atlantic, Elektra, Gingerbread Man" />
+          <attvalue for="6" value="Vocals, guitar, [, 1, ]" />
+          <attvalue for="7" value="edsheeran|.com" />
+        </attvalues>
+      </node>
+      <node id="genre_Pop" label="genre_Pop">
+        <attvalues>
+          <attvalue for="0" value="Pop" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="genre_folk-pop" label="genre_folk-pop">
+        <attvalues>
+          <attvalue for="0" value="folk-pop" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="genre_soft rock" label="genre_soft rock">
+        <attvalues>
+          <attvalue for="0" value="soft rock" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="label_Asylum" label="label_Asylum">
+        <attvalues>
+          <attvalue for="0" value="Asylum" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_Atlantic" label="label_Atlantic">
+        <attvalues>
+          <attvalue for="0" value="Atlantic" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_Elektra" label="label_Elektra">
+        <attvalues>
+          <attvalue for="0" value="Elektra" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_Gingerbread Man" label="label_Gingerbread Man">
+        <attvalues>
+          <attvalue for="0" value="Gingerbread Man" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="James Bay" label="James Bay">
+        <attvalues>
+          <attvalue for="0" value="James Bay" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Go West" label="Go West">
+        <attvalues>
+          <attvalue for="0" value="Go West" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Dan Wilson" label="Dan Wilson">
+        <attvalues>
+          <attvalue for="0" value="Dan Wilson" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Go West (" label="Go West (">
+        <attvalues>
+          <attvalue for="0" value="Go West (" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Tourist" label="Tourist">
+        <attvalues>
+          <attvalue for="0" value="Tourist" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Taylor Swift" label="Taylor Swift">
+        <attvalues>
+          <attvalue for="0" value="Taylor Swift" />
+          <attvalue for="1" value="solo_artist" />
+          <attvalue for="2" value="Nashville, Tennessee" />
+          <attvalue for="3" value="Pop, country, folk, rock" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="Big Machine, Republic" />
+          <attvalue for="6" value="Vocals, guitar, piano, banjo, ukulele" />
+          <attvalue for="7" value="taylorswift|.com" />
+        </attvalues>
+      </node>
+      <node id="genre_country" label="genre_country">
+        <attvalues>
+          <attvalue for="0" value="country" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="genre_folk" label="genre_folk">
+        <attvalues>
+          <attvalue for="0" value="folk" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="genre_rock" label="genre_rock">
+        <attvalues>
+          <attvalue for="0" value="rock" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="label_Big Machine" label="label_Big Machine">
+        <attvalues>
+          <attvalue for="0" value="Big Machine" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_Republic" label="label_Republic">
+        <attvalues>
+          <attvalue for="0" value="Republic" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="Mike Reid" label="Mike Reid">
+        <attvalues>
+          <attvalue for="0" value="Mike Reid" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Taylor Swift singles" label="Taylor Swift singles">
+        <attvalues>
+          <attvalue for="0" value="Taylor Swift singles" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="genre_Grunge" label="genre_Grunge">
+        <attvalues>
+          <attvalue for="0" value="Grunge" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="genre_alternative rock" label="genre_alternative rock">
+        <attvalues>
+          <attvalue for="0" value="alternative rock" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="genre_punk rock" label="genre_punk rock">
+        <attvalues>
+          <attvalue for="0" value="punk rock" />
+          <attvalue for="1" value="genre" />
+          <attvalue for="8" value="musical_genre" />
+        </attvalues>
+      </node>
+      <node id="label_Sub Pop" label="label_Sub Pop">
+        <attvalues>
+          <attvalue for="0" value="Sub Pop" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="label_DGC" label="label_DGC">
+        <attvalues>
+          <attvalue for="0" value="DGC" />
+          <attvalue for="1" value="label" />
+          <attvalue for="8" value="record_label" />
+        </attvalues>
+      </node>
+      <node id="Deer Tick (" label="Deer Tick (">
+        <attvalues>
+          <attvalue for="0" value="Deer Tick (" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Prince" label="Prince">
+        <attvalues>
+          <attvalue for="0" value="Prince" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="The National (" label="The National (">
+        <attvalues>
+          <attvalue for="0" value="The National (" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Flipper" label="Flipper">
+        <attvalues>
+          <attvalue for="0" value="Flipper" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Kiss (" label="Kiss (">
+        <attvalues>
+          <attvalue for="0" value="Kiss (" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Scream (" label="Scream (">
+        <attvalues>
+          <attvalue for="0" value="Scream (" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Flipper (" label="Flipper (">
+        <attvalues>
+          <attvalue for="0" value="Flipper (" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Nirvana (disambiguation)#" label="Nirvana (disambiguation)#">
+        <attvalues>
+          <attvalue for="0" value="Nirvana (disambiguation)#" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Deer Tick" label="Deer Tick">
+        <attvalues>
+          <attvalue for="0" value="Deer Tick" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="The National" label="The National">
+        <attvalues>
+          <attvalue for="0" value="The National" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Scream" label="Scream">
+        <attvalues>
+          <attvalue for="0" value="Scream" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="The" label="The">
+        <attvalues>
+          <attvalue for="0" value="The" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Bobby Jones" label="Bobby Jones">
+        <attvalues>
+          <attvalue for="0" value="Bobby Jones" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Kiss" label="Kiss">
+        <attvalues>
+          <attvalue for="0" value="Kiss" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="St. Vincent" label="St. Vincent">
+        <attvalues>
+          <attvalue for="0" value="St. Vincent" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+      <node id="Machine Gun Kelly" label="Machine Gun Kelly">
+        <attvalues>
+          <attvalue for="0" value="Machine Gun Kelly" />
+          <attvalue for="1" value="artist" />
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="The Beatles" target="genre_Rock" id="0" weight="2.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="genre_pop" id="1" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="genre_beat" id="2" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="genre_psychedelia" id="3" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="label_Polydor" id="4" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="label_Parlophone" id="5" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="label_Tollie" id="6" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="label_Vee-Jay" id="7" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="label_Capitol" id="8" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="label_Swan" id="9" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="label_Odeon" id="10" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="label_MGM" id="11" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="label_Atco" id="12" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="label_United Artists" id="13" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="label_Apple" id="14" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="The Beatles singles" id="15" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Cream" id="16" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Keane (" id="17" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Foals" id="18" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Foals (" id="19" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Nirvana (" id="20" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Nirvana" id="21" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Engelbert Humperdinck" id="22" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Paul McCartney" id="23" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Jungle (" id="24" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Toto (" id="25" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="David Peel" id="26" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="George Harrison" id="27" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Jungle" id="28" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Cream (" id="29" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Keane" id="30" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Ringo Starr %26 His All Starr" id="31" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Usher" id="32" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="The Beatles" target="Toto" id="33" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Cream" target="Nirvana" id="34" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Keane (" target="Ed Sheeran" id="35" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana (" target="Nirvana" id="36" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="genre_Grunge" id="37" weight="2.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="genre_alternative rock" id="38" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="genre_punk rock" id="39" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="label_Sub Pop" id="40" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="label_DGC" id="41" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Deer Tick (" id="42" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Prince" id="43" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="The National (" id="44" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Flipper" id="45" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Kiss (" id="46" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Scream (" id="47" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Flipper (" id="48" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Nirvana (disambiguation)#" id="49" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Deer Tick" id="50" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Cream (" id="51" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="The National" id="52" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Scream" id="53" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="The" id="54" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Bobby Jones" id="55" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Kiss" id="56" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="St. Vincent" id="57" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Nirvana" target="Machine Gun Kelly" id="58" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Engelbert Humperdinck" target="Ed Sheeran" id="59" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Toto (" target="Taylor Swift" id="60" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Keane" target="Ed Sheeran" id="61" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Usher" target="Ed Sheeran" id="62" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Usher" target="Taylor Swift" id="63" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Toto" target="Taylor Swift" id="64" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="genre_Pop" id="65" weight="2.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="genre_folk-pop" id="66" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="genre_soft rock" id="67" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="label_Asylum" id="68" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="label_Atlantic" id="69" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="label_Elektra" id="70" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="label_Gingerbread Man" id="71" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="James Bay" id="72" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="Go West" id="73" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="Dan Wilson" id="74" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="Go West (" id="75" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="Tourist" id="76" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="genre_Pop" target="Taylor Swift" id="77" weight="2.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="genre_country" id="78" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="genre_folk" id="79" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="genre_rock" id="80" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="plays_genre" />
+          <attvalue for="11" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="label_Big Machine" id="81" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="label_Republic" id="82" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="signed_to" />
+          <attvalue for="12" value="record_label" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="Mike Reid" id="83" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="Taylor Swift singles" id="84" weight="1.0">
+        <attvalues>
+          <attvalue for="10" value="collaborates_with" />
+          <attvalue for="13" value="wikipedia_links" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
