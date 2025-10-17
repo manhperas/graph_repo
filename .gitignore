@@ -110,11 +110,12 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
-# IDE files
+# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # OS files
 .DS_Store
@@ -125,21 +126,14 @@ dmypy.json
 ehthumbs.db
 Thumbs.db
 
-# Project specific ignores
-# Crawler logs
+# Project specific
+# Log files
 *.log
 crawler.log
 
-# Temporary data files (uncomment if you want to keep these in version control)
-data/api_responses/
-data/raw_html/
-data/crawler.log
-
-# Large processed files (uncomment if you want to keep final results)
-# data/processed/*.gexf
-# data/processed/*.json
-
-# Temporary files
-*.tmp
-*.temp
-*.bak
+# Temporary data files (uncomment if you want to exclude these)
+# data/processed/crawl_session_*.json
+# data/processed/network_expansion_*.json
+# data/processed/*_network.json
+# data/raw_html/*.html
+# data/api_responses/*.json
